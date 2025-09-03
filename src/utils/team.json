@@ -1,99 +1,4 @@
 [
-    
-    {
-      "name": "Spriha Anand",
-      "batch": "2025",
-      "linkedin": "https://www.linkedin.com/in/spriha-anand-818672227/",
-      "instagram": "https://www.instagram.com/_sprihaaaaa_/",
-      "imgSrc": "https://res.cloudinary.com/dkcrhkz4m/image/upload/v1738671955/1735050834340_abev1h.jpg"
-    },
-    {
-      "name": "Akshun Kuthiala",
-      "batch": "2025",
-      "linkedin": "https://www.linkedin.com/in/akshun-kuthiala/",
-      "instagram": "",
-      "imgSrc": "https://res.cloudinary.com/dnbf0uwku/image/upload/v1726945521/pfp_berx6f.jpg"
-    },
-    {
-      "name": "Shivanshu Thakur",
-      "batch": "2025",
-      "linkedin": "https://www.linkedin.com/in/shivanshu-thakur/",
-      "instagram": "https://www.instagram.com/_shivanshu.thakur_/",
-      "imgSrc": "https://res.cloudinary.com/dkcrhkz4m/image/upload/v1738079142/1000057046_didqtv.jpg"
-    },
-    {
-      "name": "Samadeep Sengupta",
-      "batch": "2025",
-      "linkedin": "linkedin.com/in/samadeep",
-      "instagram": "https://www.instagram.com/_samadeep_",
-      "imgSrc": "https://res.cloudinary.com/dkcrhkz4m/image/upload/v1738079221/20240814_183427_ewtape.jpg"
-    },
-    {
-      "name": "Astitva Dubey",
-      "batch": "2025",
-      "linkedin": "linkedin.com/in/astitva-dubey",
-      "instagram": "",
-      "imgSrc": "https://res.cloudinary.com/dkcrhkz4m/image/upload/v1738682236/1732718585347_xpzies.jpg"
-    },
-    {
-      "name": "Tushar Kaushal",
-      "batch": "2025",
-      "linkedin": "https://in.linkedin.com/in/tushar-kaushal",
-      "instagram": "https://www.instagram.com/_tushar._kaushal/",
-      "imgSrc": "https://res.cloudinary.com/dkcrhkz4m/image/upload/v1738079283/20241019_151547_dzqf9k.jpg"
-    },
-    {
-      "name": "Shubham Jaswal",
-      "batch":"2025",
-      "linkedin": "https://www.linkedin.com/in/jaswal-shubham",
-      "instagram": "",
-      "imgSrc": "https://res.cloudinary.com/dnbf0uwku/image/upload/v1739191092/shubham_lmgjmu_fimptc.webp"
-    },
-    {
-      "name": "Arushi Guleria",
-      "batch": "2025",
-      "linkedin": "https://www.linkedin.com/in/arushi-guleria-5662b122a",
-      "instagram": "https://www.instagram.com/arushi_gulerria/",
-      "imgSrc": "https://res.cloudinary.com/dkcrhkz4m/image/upload/v1738079350/github_profile_image_anolqc.jpg"
-    },
-    {
-      "name": "Rehan Khan",
-      "batch": "2025",
-      "linkedin": "https://www.linkedin.com/in/rehan49",
-      "instagram": "https://www.instagram.com/reh_an_k/",
-      "imgSrc": "https://res.cloudinary.com/dkcrhkz4m/image/upload/v1738682349/1713621660118_tb08ez.jpg"
-    },
-    {
-      "name": "Shreya Dhiman",
-      "batch": "2025",
-      "linkedin": "https://www.linkedin.com/in/shreya-dhiman-25a753247/",
-      "instagram": "https://www.instagram.com/shreya_d30",
-      "imgSrc": "https://res.cloudinary.com/dkcrhkz4m/image/upload/v1738682225/1718310147522_n6cafu.jpg"
-    },
-    {
-      "name": "Adarsh Rao",
-      "batch": "2025",
-      "linkedin": "https://www.linkedin.com/in/adarsh100rao/",
-      "instagram": "",
-      "imgSrc": "https://res.cloudinary.com/dkcrhkz4m/image/upload/v1738682231/1722013513960_bwdhha.jpg"
-    },
-    {
-      "name": "Rakesh Swami",
-      "batch":"2025",
-      "linkedin": "https://www.linkedin.com/in/rakesh-swami-635b87222",
-      "instagram": "https://www.instagram.com/rakesh__swami_/",
-      "imgSrc": "https://res.cloudinary.com/dkcrhkz4m/image/upload/v1738079501/IMG_20241206_142649946_HDR_AE_k17dne.jpg"
-    }
-    
-    
-
-
-
-
-
-    
-    
-    ,
     {
       "name": "Tanishq Verma",
       "batch": "2026",
@@ -198,7 +103,7 @@
       "linkedin":"https://www.linkedin.com/in/wosuxh",
       "instagram":"https://www.instagram.com/wosu._.xh",
       "imgSrc":"https://res.cloudinary.com/dvnrlqqpq/image/upload/v1739960542/akash_bqdy3d.jpg"
-    }
+    },
     
     
     
@@ -207,7 +112,6 @@
 
 
     
-    ,
     {
       "name": "Isha",
       "batch": "2027",
@@ -326,7 +230,7 @@
       "linkedin": "https://www.linkedin.com/in/rudesh-kumar-40712b280/",
       "instagram": "",
       "imgSrc": "https://res.cloudinary.com/dkcrhkz4m/image/upload/v1738082144/photo_k91tqe.jpg"
-    }
+    },
     
     
 
@@ -337,7 +241,7 @@
 
 
     
-    ,
+
     {
         "name": "Lavish",
       "batch": "2028",
@@ -347,15 +251,6 @@
       
        
       
-    },
-    {
-        "name": "Prashant Thakur",
-        "batch": "2028",
-        "linkedin": "https://www.linkedin.com/in/prashant-thakur-046678322/",
-        "instagram": "https://www.instagram.com/prashantt_2730",
-        "imgSrc": "https://res.cloudinary.com/duezus2xn/image/upload/v1738075650/prashant_2_vsdpsb.jpg"
-
-        
     },
     {
         "name": "Aryan Sharma",
@@ -394,13 +289,6 @@
       "imgSrc": "https://res.cloudinary.com/dkcrhkz4m/image/upload/v1738134087/IMG_20250128_201927_kwt4vg.jpg"
     },
     {
-      "name": "Anilove",
-      "batch": "2028",
-      "linkedin": "https://www.linkedin.com/in/anilove-049a12324",
-      "instagram": "https://www.instagram.com/anilove._.5?igsh=YXlqYW95eHMzM2dr",
-      "imgSrc": "https://res.cloudinary.com/dkcrhkz4m/image/upload/v1738088682/IMG20241110215944_qx4ejt.jpg"
-    },
-    {
       "name": "Bhola Prasad Sah",
       "batch": "2028",
       "linkedin": "https://www.linkedin.com/in/bhola-prasad-sah-869b13349?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
@@ -408,39 +296,11 @@
       "imgSrc": "https://res.cloudinary.com/dkcrhkz4m/image/upload/v1738088411/1738076772514_ql73vg.jpg"
     },
     {
-      "name": "Tanmay Singh",
-      "batch": "2028",
-      "linkedin": "https://www.linkedin.com/in/tanmay-singh-89021b324?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-      "instagram": "https://www.instagram.com/tanmay_singh_100?igsh=aWJydjA3Nm55eHBw",
-      "imgSrc": "https://res.cloudinary.com/dkcrhkz4m/image/upload/v1738134170/IMG-20240818-WA0002_dolerx.jpg"
-    },
-    {
-      "name": "Tanisha",
-      "batch": "2028",
-      "linkedin": "https://www.linkedin.com/in/tanisha-chandok-77a185349",
-      "instagram": "https://www.instagram.com/tanishaa.3006?utm_source=qr&igsh=ZDFkNWwyZXAyd3Nm",
-      "imgSrc": "https://res.cloudinary.com/dkcrhkz4m/image/upload/v1738088626/IMG_20241207_155127_mls1zh.jpg"
-    },
-    {
-      "name": "Aakriti",
-      "batch": "2028",
-      "linkedin": "www.linkedin.com/in/aakriti-rattan-bba62b319",
-      "instagram": "https://www.instagram.com/_aakriti.here?igsh=Yng3dnhrY3AwNHlt",
-      "imgSrc": "https://res.cloudinary.com/dkcrhkz4m/image/upload/v1738089007/IMG_20250128_235644_197_yttpst.jpg"
-    },
-    {
       "name": "Chetna Singh",
       "batch": "2028",
       "linkedin": "https://www.linkedin.com/in/chetna-singh-97166a322/",
       "instagram": "https://www.instagram.com/mainhoonchetna/?hl=en",
       "imgSrc": "https://res.cloudinary.com/dkcrhkz4m/image/upload/v1738134304/c823d071-af30-45a7-9182-a85015e0cb33_fn17g3.jpg"
-    },
-    {
-      "name": "Divyam",
-      "batch": "2028",
-      "linkedin": "www.linkedin.com/in/divyam-singh-duhoon",
-      "instagram": "https://www.instagram.com/btwimdivyam/",
-      "imgSrc": "https://res.cloudinary.com/dkcrhkz4m/image/upload/v1738134704/WhatsApp_Image_2024-11-10_at_10.47.39_PM_lpvlpg.jpg"
     },
     {
       "name": "Sujal",

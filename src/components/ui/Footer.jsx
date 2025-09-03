@@ -15,7 +15,7 @@ const Footer = () => {
                     <a href="mailto:csec@nith.ac.in" target="_blank" rel="noopener noreferrer" className="text-white hover:text-gray-400">
                         Gmail
                     </a>
-                    <a href="https://www.linkedin.com/company/csec-society-nith/" target="_blank" rel="noopener noreferrer" className="text-white hover:text-gray-400">
+                    <a href="https://www.linkedin.com/company/nith-csec/posts/?feedView=all" target="_blank" rel="noopener noreferrer" className="text-white hover:text-gray-400">
                         LinkedIn
                     </a>
                     <a href="https://www.instagram.com/csec_nith" target="_blank" rel="noopener noreferrer" className="text-white hover:text-gray-400">

@@ -32,7 +32,6 @@ const TeamsPage = () => {
 
   const filterOptions = [
     { value: "", title: "Select Batch" },
-    { value: "2025", title: "Batch 2025" },
     { value: "2026", title: "Batch 2026" },
     { value: "2027", title: "Batch 2027" },
     { value: "2028", title: "Batch 2028" },
