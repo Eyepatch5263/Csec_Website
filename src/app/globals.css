@@ -70,3 +70,7 @@
 .custom-border-gradient {
   border-image: linear-gradient(to right, #ff00ff, #00ffff, #00ff00) 1;
 }
+
+.drop-shadow-glow {
+  filter: drop-shadow(0 0 8px rgba(230, 57, 70, 0.7));
+}

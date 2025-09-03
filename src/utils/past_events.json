@@ -1,100 +1,97 @@
 [
-    {
-        "event":"Heuristics",
-        "image":"https://res.cloudinary.com/dvnrlqqpq/image/upload/v1731937900/third_vufqgg.png",
-        "date":"2025-01-26",
-        "desc":"Show off your coding skills to the world",
-        "long_desc":"Heuristics is our flagship coding contest where logic meets adrenaline and coders become problem-solving heroes! Designed to challenge your algorithmic skills and ignite your competitive spirit.Whether you are a code ninja or just love the thrill of debugging under pressure, this contest is your playground to shine.Held every month, Heuristics is your regular dose of brain-teasing fun and fierce competition. Each edition brings fresh challenges, tougher problems, and bigger opportunities to learn, grow, and show off your skills. Think fast, code faster, and outsmart the clock, because at Heuristics, it is not just about finding solutions, it is about finding them with style!",
-        "long_date":"January 26, 2025",
-        
-        "event_type":"Virtual Event"
-    },
-    {
-        "event":"CodeWrap",
-        "image":"https://res.cloudinary.com/dvnrlqqpq/image/upload/v1731937899/fourthpng_l0lkt4.png",
-        "date":"2024-12-30",
-        "desc":"Show off your coding skills to the world",
-        "long_date":"December 30, 2024",
-        "long_desc":"Code Wrap is our ultimate winter coding showdown, where logic meets the chill and coders heat things up with mind-bending solutions! Whether you are a code wizard or just looking to escape the cold with some serious brain flexing, this competition is the perfect playground. Brace yourself for a series of icy challenges that test your problem-solving skills, algorithmic genius, and coding prowess. With problems ranging from frosty puzzles to blizzard-level logic battles, you will need creativity and quick thinking to wrap up those solutions in style. It is not just about cracking the code, it is about doing it with flair while the winter winds blow outside. So grab your hoodies, warm up those keyboards, and get ready for a flurry of fun, fierce competition, and coding glory.",
-        "event_type":"Virtual Event"
-    },
-    
-    {
-        "event":"Introduction-to-CS",
-        "image":"https://res.cloudinary.com/dkcrhkz4m/image/upload/v1738072477/intro_to_cs_flo1gr.jpg",
-        "date":"2024-09-19",
-        "desc":"Join and enter the world of programming.",
-        "long_date":"September 19, 2024",
-        "long_desc":"New to coding? Let us turn those Oops! moments into Aha! breakthroughs as we dive into the basics of programming, algorithms, and problem-solving, while also exploring cool fields like app development, web development, game design, and UI/UX. Whether you are new to tech or ready to level up, this workshop sparks creativity and opens the door to endless possibilities.",
-        "event_type":"Offline Event"
-    },
-    {
-        "event":"Git-Workshop",
-        "image":"https://res.cloudinary.com/dvnrlqqpq/image/upload/v1731937896/first_dvr2bd.png",
-        "date":"2024-10-23",
-        "desc":"Learn about basic of git and github",
-        "long_date":"October 23, 2024",
-        "long_desc":"The workshop was an interactive journey through the world of version control and collaboration. Participants got hands-on experience with Git, learning the ropes of initializing repositories, staging and committing changes, branching and merging, and resolving conflicts. We also explored the collaborative magic of GitHub, from managing remote repositories to contributing to open-source projects. With real-world examples, fun exercises, and expert tips, everyone walked away with the skills to streamline their workflow and boost coding collaboration. It was a day of learning, coding, and plenty of Git puns,the perfect recipe for mastering version control.",
-        "event_type":"Offline Event"
-    },{
-        "event":"Hackathon",
-        "image":"https://res.cloudinary.com/dvnrlqqpq/image/upload/v1731938153/image_2_m1iswc.png",
-        "date":"Coming soon..",
-        "desc":"Meet new people and build projects",
-        "long_desc":"Brace yourselves for a code-fueled marathon where caffeine meets creativity it is hackathon time! This is your chance to team up, brainstorm wild ideas, and transform them into working prototypes within a thrilling time frame. Think sleepless nights, intense coding sessions, and epic lightbulb moments that will blow your mind. Whether you are here to build the next big app, solve real-world problems, or simply flex your dev skills, it is all about puShing boundaries and thinking outside the box.Expect a vibrant atmosphere buzzing with innovation, mentor support to guide your genius ideas, and friendly competition to fuel your hustle. Do not worry, we have got plenty of snacks, caffeine, and positive vibes to keep you going! It is time to code, create, and conquer , because at this hackathon, anything is possible.",
-        "long_date":"Coming soon..",
-        "event_type":"Virtual Event"
-    },
-    {
-        "event":"Linux",
-        "image":"https://res.cloudinary.com/dvnrlqqpq/image/upload/v1731937895/fifth_xvgdcc.png",
-        "date":"Coming soon..",
-        "desc":"Join to explore new technology",
-        "long_desc":"Ready to ditch the mouse and embrace the terminal? Our Linux workshop is your backstage pass to the world of open-source magic. From mastering essential commands to navigating file systems and shell scripting, you will learn to wield the power of Linux like a pro. Whether you are a newbie or a curious explorer, it is time to level up your tech game and go full command-line chad!",
-        "long_date":"Coming soon..",
-        
-        "event_type":"Offline Event"
-    },
-    
-    
-    
-   
-    {
-        "event":"Programming-Meet",
-        "image":"https://res.cloudinary.com/dvnrlqqpq/image/upload/v1731937898/sixth_ypaict.png",
-        "date":"Coming soon..",
-        "desc":"Join to learn and discuss about coding",
-        "long_date":"Coming soon..",
-        "long_desc":"Think code jams, tech chats, and creative sparks flying everywhere that is exactly our programming meet. From showcasing cool projects and solutions to cracking code challenges and swapping tech tips, there is something for everyone. Whether you are here to network, troubleshoot that stubborn bug, or just vibe with fellow coders over coffee, this meet promises a mix of innovation, inspiration, and geeky fun. No RSVP needed ,just bring your passion for code!",
-        "event_type":"Virtual Event"
-    },
-    
-    {
-        "event":"Bootcamp",
-        "image":"https://res.cloudinary.com/dvnrlqqpq/image/upload/v1731937900/second_hzbfq1.png",
-        "date":"Coming soon..",
-        "desc":"Learn about dynamic programming",
-        "long_date":"Coming soon..",
-        "long_desc":"Strap in and power up, it is bootcamp time!  Whether you are taking your first step into tech or leveling up your coding game, this immersive experience is designed to transform you into a confident problem-solver and creator. We go beyond the basics, diving into hands-on sessions that teach you to build, debug, and innovate with confidence.Expect interactive workshops, real-world projects, and expert mentorship to fuel your learning journey. From coding fundamentals to advanced concepts, you will get a front-row seat to everything you need to thrive in the tech world. No boring slides here — just fun challenges, late-night breakthroughs, and plenty of aha moments!By the end of the bootcamp, you would not just be a participant — you will be a tech trailblazer, ready to take on complex challenges and make a mark. So lace up those coding boots, grab your curiosity, and let us get to work.",
-        "event_type":"Virtual Event"
-    },
-    {
-        "event":"Freedom-Day",
-        "image":"https://res.cloudinary.com/dvnrlqqpq/image/upload/v1731948066/Frame_1001_lkbtaa.png",
-        "date":"Coming soon..",
-        "desc":"Join to learn and discuss about coding",
-        "long_date":"Coming soon..",
-        "long_desc":"A Freedom Day is a celebration of coding freedom, where participants come together to explore new technologies, share knowledge, and engage in coding activities. This event is an opportunity for coding enthusiasts to learn, collaborate, and network with like-minded individuals in a fun and interactive environment. The Freedom Day includes coding challenges, workshops, lightning talks, and networking sessions that cover a wide range of programming topics. Participants will have the chance to showcase their coding skills, learn from industry experts, and connect with a vibrant community of developers. Whether you are a beginner looking to learn the basics or an experienced coder seeking to expand your knowledge, the Freedom Day offers a platform to explore new coding techniques, exchange ideas, and celebrate the joy of coding. Join us for an exciting day of learning, coding, and camaraderie as we come together to celebrate the freedom of creativity and innovation in the world of programming.",     
-        "event_type":"Offline Event"
-    },
-    {
-        "event":"Intern-Talk",
-        "image":"https://res.cloudinary.com/dvnrlqqpq/image/upload/v1731948391/intern_ihm73b.png",
-        "date":"Coming soon..",
-        "desc":"Join to learn and discuss about coding",
-        "long_date":"Coming soon..",
-        "long_desc":"An Intern Talk is an event organized by a society where current interns and recent graduates share their experiences, insights, and advice on navigating the world of internships and early-career opportunities. This event provides a platform for interns to discuss their internship journeys, challenges faced, lessons learned, and tips for success. Attendees will hear from a diverse panel of speakers who have completed internships in various industries, companies, and roles, offering valuable perspectives and practical advice. The Intern Talk covers topics such as finding internships, preparing for interviews, adapting to new work environments, building professional relationships, and making the most of internship experiences. Participants will have the opportunity to ask questions, engage in discussions, and connect with peers who are embarking on their internship journeys. Whether you are a student seeking internship opportunities or an intern looking to enhance your skills, the Intern Talk offers valuable insights and guidance to help you navigate the internship landscape and kickstart your career. Join us for an informative and inspiring event that empowers interns to thrive in their professional development journey.",
-        "event_type":"Virtual Event"
-    }
+  {
+    "event": "Heuristics",
+    "image": "https://res.cloudinary.com/dvnrlqqpq/image/upload/v1731937900/third_vufqgg.png",
+    "date": "2025-01-26",
+    "desc": "Show off your coding skills to the world",
+    "long_desc": "Heuristics is our flagship coding contest where logic meets adrenaline and coders become problem-solving heroes! Designed to challenge your algorithmic skills and ignite your competitive spirit.Whether you are a code ninja or just love the thrill of debugging under pressure, this contest is your playground to shine.Held every month, Heuristics is your regular dose of brain-teasing fun and fierce competition. Each edition brings fresh challenges, tougher problems, and bigger opportunities to learn, grow, and show off your skills. Think fast, code faster, and outsmart the clock, because at Heuristics, it is not just about finding solutions, it is about finding them with style!",
+    "long_date": "January 26, 2025",
 
+    "event_type": "Virtual Event"
+  },
+  {
+    "event": "CodeWrap",
+    "image": "https://res.cloudinary.com/dvnrlqqpq/image/upload/v1731937899/fourthpng_l0lkt4.png",
+    "date": "2024-12-30",
+    "desc": "Show off your coding skills to the world",
+    "long_date": "December 30, 2024",
+    "long_desc": "Code Wrap is our ultimate winter coding showdown, where logic meets the chill and coders heat things up with mind-bending solutions! Whether you are a code wizard or just looking to escape the cold with some serious brain flexing, this competition is the perfect playground. Brace yourself for a series of icy challenges that test your problem-solving skills, algorithmic genius, and coding prowess. With problems ranging from frosty puzzles to blizzard-level logic battles, you will need creativity and quick thinking to wrap up those solutions in style. It is not just about cracking the code, it is about doing it with flair while the winter winds blow outside. So grab your hoodies, warm up those keyboards, and get ready for a flurry of fun, fierce competition, and coding glory.",
+    "event_type": "Virtual Event"
+  },
+
+  {
+    "event": "Introduction-to-CS",
+    "image": "https://res.cloudinary.com/dmiq1mtz7/image/upload/v1756907305/WhatsApp_Image_2025-08-29_at_15.46.02_a9b7766f_yjdfy5.jpg",
+    "date": "2025-09-03",
+    "desc": "Join and enter the world of programming.",
+    "long_date": "September 03, 2025",
+    "long_desc": "New to coding? Let us turn those Oops! moments into Aha! breakthroughs as we dive into the basics of programming, algorithms, and problem-solving, while also exploring cool fields like app development, web development, game design, and UI/UX. Whether you are new to tech or ready to level up, this workshop sparks creativity and opens the door to endless possibilities.",
+    "event_type": "Offline Event"
+  },
+  {
+    "event": "Git-Workshop",
+    "image": "https://res.cloudinary.com/dvnrlqqpq/image/upload/v1731937896/first_dvr2bd.png",
+    "date": "2024-10-23",
+    "desc": "Learn about basic of git and github",
+    "long_date": "October 23, 2024",
+    "long_desc": "The workshop was an interactive journey through the world of version control and collaboration. Participants got hands-on experience with Git, learning the ropes of initializing repositories, staging and committing changes, branching and merging, and resolving conflicts. We also explored the collaborative magic of GitHub, from managing remote repositories to contributing to open-source projects. With real-world examples, fun exercises, and expert tips, everyone walked away with the skills to streamline their workflow and boost coding collaboration. It was a day of learning, coding, and plenty of Git puns,the perfect recipe for mastering version control.",
+    "event_type": "Offline Event"
+  },
+  {
+    "event": "Hackathon",
+    "image": "https://res.cloudinary.com/dmiq1mtz7/image/upload/f_auto,q_auto/v1/CSEC/q3xergys30tqs1eysz9h",
+    "date": "2025-04-04",
+    "desc": "Meet new people and build projects",
+    "long_desc": "HACK 5.0 is the fifth edition of the national-level onsite hackathon organized by the Computer Science Engineers' Community (CSEC) of the Department of Computer Science and Engineering, NIT Hamirpur. This premier event brings together the brightest minds in technology to solve real-world problems through innovation and collaboration.Over 48 hours, participants will form teams, ideate, build, and present their solutions to a panel of industry experts. With mentorship, workshops, and networking opportunities, HACK 5.0 is more than just a competition—it's a platform for growth, learning, and technological advancement.",
+    "long_date": "2025-04-04",
+    "event_type": "Offline Event"
+  },
+  {
+    "event": "Linux",
+    "image": "https://res.cloudinary.com/dvnrlqqpq/image/upload/v1731937895/fifth_xvgdcc.png",
+    "date": "Coming soon..",
+    "desc": "Join to explore new technology",
+    "long_desc": "Ready to ditch the mouse and embrace the terminal? Our Linux workshop is your backstage pass to the world of open-source magic. From mastering essential commands to navigating file systems and shell scripting, you will learn to wield the power of Linux like a pro. Whether you are a newbie or a curious explorer, it is time to level up your tech game and go full command-line chad!",
+    "long_date": "Coming soon..",
+
+    "event_type": "Offline Event"
+  },
+
+  {
+    "event": "Programming-Meet",
+    "image": "https://res.cloudinary.com/dvnrlqqpq/image/upload/v1731937898/sixth_ypaict.png",
+    "date": "Coming soon..",
+    "desc": "Join to learn and discuss about coding",
+    "long_date": "Coming soon..",
+    "long_desc": "Think code jams, tech chats, and creative sparks flying everywhere that is exactly our programming meet. From showcasing cool projects and solutions to cracking code challenges and swapping tech tips, there is something for everyone. Whether you are here to network, troubleshoot that stubborn bug, or just vibe with fellow coders over coffee, this meet promises a mix of innovation, inspiration, and geeky fun. No RSVP needed ,just bring your passion for code!",
+    "event_type": "Virtual Event"
+  },
+
+  {
+    "event": "Bootcamp",
+    "image": "https://res.cloudinary.com/dvnrlqqpq/image/upload/v1731937900/second_hzbfq1.png",
+    "date": "Coming soon..",
+    "desc": "Learn about dynamic programming",
+    "long_date": "Coming soon..",
+    "long_desc": "Strap in and power up, it is bootcamp time!  Whether you are taking your first step into tech or leveling up your coding game, this immersive experience is designed to transform you into a confident problem-solver and creator. We go beyond the basics, diving into hands-on sessions that teach you to build, debug, and innovate with confidence.Expect interactive workshops, real-world projects, and expert mentorship to fuel your learning journey. From coding fundamentals to advanced concepts, you will get a front-row seat to everything you need to thrive in the tech world. No boring slides here — just fun challenges, late-night breakthroughs, and plenty of aha moments!By the end of the bootcamp, you would not just be a participant — you will be a tech trailblazer, ready to take on complex challenges and make a mark. So lace up those coding boots, grab your curiosity, and let us get to work.",
+    "event_type": "Virtual Event"
+  },
+  {
+    "event": "Freedom-Day",
+    "image": "https://res.cloudinary.com/dvnrlqqpq/image/upload/v1731948066/Frame_1001_lkbtaa.png",
+    "date": "Coming soon..",
+    "desc": "Join to learn and discuss about coding",
+    "long_date": "Coming soon..",
+    "long_desc": "A Freedom Day is a celebration of coding freedom, where participants come together to explore new technologies, share knowledge, and engage in coding activities. This event is an opportunity for coding enthusiasts to learn, collaborate, and network with like-minded individuals in a fun and interactive environment. The Freedom Day includes coding challenges, workshops, lightning talks, and networking sessions that cover a wide range of programming topics. Participants will have the chance to showcase their coding skills, learn from industry experts, and connect with a vibrant community of developers. Whether you are a beginner looking to learn the basics or an experienced coder seeking to expand your knowledge, the Freedom Day offers a platform to explore new coding techniques, exchange ideas, and celebrate the joy of coding. Join us for an exciting day of learning, coding, and camaraderie as we come together to celebrate the freedom of creativity and innovation in the world of programming.",
+    "event_type": "Offline Event"
+  },
+  {
+    "event": "Intern-Talk",
+    "image": "https://res.cloudinary.com/dvnrlqqpq/image/upload/v1731948391/intern_ihm73b.png",
+    "date": "Coming soon..",
+    "desc": "Join to learn and discuss about coding",
+    "long_date": "Coming soon..",
+    "long_desc": "An Intern Talk is an event organized by a society where current interns and recent graduates share their experiences, insights, and advice on navigating the world of internships and early-career opportunities. This event provides a platform for interns to discuss their internship journeys, challenges faced, lessons learned, and tips for success. Attendees will hear from a diverse panel of speakers who have completed internships in various industries, companies, and roles, offering valuable perspectives and practical advice. The Intern Talk covers topics such as finding internships, preparing for interviews, adapting to new work environments, building professional relationships, and making the most of internship experiences. Participants will have the opportunity to ask questions, engage in discussions, and connect with peers who are embarking on their internship journeys. Whether you are a student seeking internship opportunities or an intern looking to enhance your skills, the Intern Talk offers valuable insights and guidance to help you navigate the internship landscape and kickstart your career. Join us for an informative and inspiring event that empowers interns to thrive in their professional development journey.",
+    "event_type": "Virtual Event"
+  }
 ]

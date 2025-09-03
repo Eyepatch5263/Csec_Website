@@ -64,7 +64,7 @@ const HodSay = () => {
                                 <p className="mt-10 text-lg">
                                 Welcome to the Computer Science Engineers&apos; Community (CSEC)! As the Faculty Coordinator of CSEC, a warm welcome is extended to all members and visitors. CSEC serves as a platform where students can collaborate, innovate, and enhance their technical skills. Through workshops, hackathons, guest lectures, and project-based activities, opportunities are provided for students to grow, learn, and connect with industry professionals, and develop solutions to real-world challenges. Active engagement and contribution to the CSEC are encouraged to help and shape the future of technology. Let&apos;s work together to push boundaries and develop as the next generation of computer science leaders.</p>
                                 <br/>
-                                <span className="text-end font-bold text-lg mt-6 block md:inline-block">- Dr. Jyoti Srivasta</span>
+                                <span className="text-end font-bold text-lg mt-6 block md:inline-block">- Dr. Jyoti Srivastava</span>
                             </div>
                         </div>
                     </motion.div>

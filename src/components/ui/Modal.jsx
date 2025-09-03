@@ -1,6 +1,12 @@
 import React, { useEffect, useRef } from "react";
 
-const Modal = ({ showModal, handleClose, handleBatchChange, selectedBatch, filterOptions }) => {
+const Modal = ({
+  showModal,
+  handleClose,
+  handleBatchChange,
+  selectedBatch,
+  filterOptions,
+}) => {
   const modalRef = useRef(null);
 
   useEffect(() => {
@@ -23,7 +29,10 @@ const Modal = ({ showModal, handleClose, handleBatchChange, selectedBatch, filte
 
   return (
     <div className="fixed top-0 left-0 z-[100] w-full h-full bg-black bg-opacity-50 flex justify-center items-center">
-      <div ref={modalRef} className="bg-[#222] p-8 rounded-lg w-[300px] text-center">
+      <div
+        ref={modalRef}
+        className="bg-[#222] p-8 rounded-lg w-[300px] text-center"
+      >
         <h2 className="text-white text-xl mb-4">Filter Options</h2>
         <div className="mb-4">
           <select
@@ -38,7 +47,10 @@ const Modal = ({ showModal, handleClose, handleBatchChange, selectedBatch, filte
             ))}
           </select>
         </div>
-        <button onClick={handleClose} className="py-2 px-4 bg-[#000] text-white rounded">
+        <button
+          onClick={handleClose}
+          className="py-2 px-4 bg-[#000] text-white rounded"
+        >
           Select
         </button>
       </div>

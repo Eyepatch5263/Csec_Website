@@ -1,5 +1,5 @@
 import "./globals.css";
-import { Inria_Sans, Poppins, Sansita } from "next/font/google";
+import { Inria_Sans, Poppins, Sansita, Inter } from "next/font/google";
 import Navbar from "../components/Navbar";
 import CanvasAnimation from "../components/CanvasAnimation";
 export const metadata = {
@@ -14,14 +14,20 @@ const inria2 = Inria_Sans({
 
 const poppins = Poppins({
   subsets: ["latin-ext"],
-  weight: ["100","200","300","400","500","600","700","800","900"],
+  weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
 });
 
 const sansita = Sansita({
   display: "swap",
   subsets: ["latin"],
   weight: ["400", "700"],
-})
+});
+
+const interFont = Inter({
+  display: "swap",
+  subsets: ["latin"],
+  weight: ["400", "500", "600", "700"],
+});
 
 export default function RootLayout({ children }) {
   return (

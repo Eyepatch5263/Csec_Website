@@ -46,7 +46,7 @@ export default function Landing() {
   }, [])
 
   return (
-    <div className={`landing-container ${poppins.variable}`}>
+    <div className={`landing-container ${poppins.variable}`} id="landing">
       {/* {backgroundImages.map((image, index) => (
         <div
           key={index}

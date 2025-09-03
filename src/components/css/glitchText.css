@@ -1,0 +1,59 @@
+.glitch-wrapper {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #222;
+}
+
+.glitch {
+  position: relative;
+  font-size: 80px;
+  font-weight: 700;
+  color: #d51212;
+  letter-spacing: 5px;
+  z-index: 1;
+  animation: glitch-skew 0.3s infinite linear alternate-reverse;
+}
+
+.glitch::before,
+.glitch::after {
+  content: attr(data-glitch);
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0.75;
+}
+
+.glitch::before {
+  color: cyan;
+  transform: translate(-3px, 0);
+  clip-path: inset(10% 0 30% 0);
+  animation: glitch-effect 0.2s infinite linear alternate-reverse;
+}
+
+.glitch::after {
+  color: magenta;
+  transform: translate(3px, 0);
+  clip-path: inset(50% 0 20% 0);
+  animation: glitch-effect 0.25s infinite linear alternate-reverse;
+}
+
+@keyframes glitch-effect {
+  0% {
+    transform: translate(-3px, 0);
+  }
+  100% {
+    transform: translate(3px, 0);
+  }
+}
+
+@keyframes glitch-skew {
+  0% {
+    transform: skew(0deg);
+  }
+  100% {
+    transform: skew(3deg);
+  }
+}

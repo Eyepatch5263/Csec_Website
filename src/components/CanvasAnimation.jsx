@@ -201,6 +201,9 @@ const CanvasAnimation = () => {
         left: 0,
         zIndex: 1,
         background: "#000",
+        width: "100vw",
+        height: "100vh",
+        display: "block",
       }}
     />
   );

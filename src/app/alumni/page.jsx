@@ -32,10 +32,8 @@ const TeamsPage = () => {
 
   const filterOptions = [
     { value: "", title: "Select Batch" },
-    { value: "2021", title: "Batch 2021" },
-    { value: "2022", title: "Batch 2022" },
-    { value: "2023", title: "Batch 2023" },
     { value: "2024", title: "Batch 2024" },
+    { value: "2025", title: "Batch 2025" }
   ]
 
   const filteredCards = alumniData.filter((card) => {
@@ -110,14 +108,14 @@ const TeamsPage = () => {
                     whileInView={{ opacity: 1, y: 0 }}
                     transition={{ duration: 0.8, delay: index * 0.2 }}
                     viewport={{ once: true }}
-                    className="group relative overflow-hidden rounded-lg shadow-lg"
+                    className="group relative overflow-hidden rounded-lg shadow-lg w-full"
                   >
                     <Image
                       src={card.imgSrc || "/placeholder.svg"}
                       alt={card.name}
                       width={600}
                       height={400}
-                      className="w-full h-[400px] object-cover transition-transform duration-300 group-hover:scale-110 "
+                      className="w-full h-[400px] object-contain transition-transform duration-300 group-hover:scale-110 "
                     />
                     <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                       <div className="absolute bottom-0 left-0 right-0 p-6 text-white">
