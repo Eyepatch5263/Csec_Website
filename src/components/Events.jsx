@@ -1,9 +1,9 @@
 "use client";
 
-import React from "react";
+import React, { useMemo } from "react";
 import { Poppins, Inria_Serif, Sansita } from "next/font/google";
 import { motion } from "framer-motion";
-import events from "../utils/past_events.json";
+import eventsData from "../utils/past_events.json";
 import {
   Carousel,
   CarouselContent,
@@ -35,18 +35,18 @@ const Events = () => {
   const router = useRouter();
 
   const EventCard = ({ event }) => (
-    <Card className="event-card">
+    <Card className="event-card flex flex-col h-full">
       <CardHeader>
         <CardTitle className="text-xl font-light">{event.event}</CardTitle>
-        <CardDescription>{event.desc}</CardDescription>
+        <CardDescription className="min-h-[40px] line-clamp-2">{event.desc}</CardDescription>
       </CardHeader>
-      <CardContent>
+      <CardContent className="flex-grow flex flex-col justify-between">
         <img
-          className="event-image"
+          className="event-image mb-4"
           src={event.image || "/placeholder.svg"}
           alt={event.event}
         />
-        <div className="event-date">
+        <div className="event-date mt-auto">
           <span>Date</span>
           <span>{event.date}</span>
         </div>
@@ -62,6 +62,17 @@ const Events = () => {
       </CardFooter>
     </Card>
   );
+
+  const events = useMemo(() => {
+    return [...eventsData].sort((a, b) => {
+      // Define a very far future date for "Coming soon.." to keep them at the top
+      const dateA = a.date === "Coming soon.." ? new Date("2100-01-01").getTime() : new Date(a.date).getTime();
+      const dateB = b.date === "Coming soon.." ? new Date("2100-01-01").getTime() : new Date(b.date).getTime();
+
+      // Sort descending (newest/future events first, oldest events last)
+      return dateB - dateA;
+    });
+  }, []);
 
   return (
     <section className={`events-section ${poppins.variable} `}>
@@ -98,7 +109,7 @@ const Events = () => {
                   key={index}
                   className="md:basis-1/3 lg:basis-[26%] pl-4"
                 >
-                  <div className="p-1">
+                  <div className="p-1 h-full">
                     <EventCard event={event} />
                   </div>
                 </CarouselItem>

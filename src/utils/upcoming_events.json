@@ -1,20 +1,20 @@
 [
     {
-        "event":"Introduction to CS",
-        "desc":"Introduction to Computer Science workshop was an immersive event organized by a passionate team dedicated to making computer science accessible to everyone. Participants were introduced to foundational concepts such as programming, algorithms, and problem-solving, along with exciting fields like app development, web development, game development, and UI/UX design.",
-        "image":"https://images.unsplash.com/photo-1720125480125-d206de86a20f?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-        "date":"2024-09-19"
+        "event": "Introduction to CS",
+        "desc": "Introduction to Computer Science workshop was an immersive event organized by a passionate team dedicated to making computer science accessible to everyone. Participants were introduced to foundational concepts such as programming, algorithms, and problem-solving, along with exciting fields like app development, web development, game development, and UI/UX design.",
+        "image": "https://images.unsplash.com/photo-1720125480125-d206de86a20f?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "date": "2024-09-19"
     },
     {
-        "event":"Github Workshop",
-        "desc":"Git and GitHub Workshop was an interactive event that introduced participants to the basics of version control and collaboration using Git and GitHub. Participants learned how to create repositories, commit changes, and collaborate with others on projects. They also learned how to use Git commands and workflows to manage their code effectively.",
-        "image":"https://images.unsplash.com/photo-1610307390744-b55e7ca781d1?q=80&w=1873&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-        "date":"2024-10-23"
+        "event": "Github Workshop",
+        "desc": "Git and GitHub Workshop was an interactive event that introduced participants to the basics of version control and collaboration using Git and GitHub. Participants learned how to create repositories, commit changes, and collaborate with others on projects. They also learned how to use Git commands and workflows to manage their code effectively.",
+        "image": "https://images.unsplash.com/photo-1610307390744-b55e7ca781d1?q=80&w=1873&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "date": "2024-10-23"
     },
     {
-        "event":"Basics to linux",
-        "desc":"Basics to Linux workshop was an engaging event that introduced participants to the basics of the Linux operating system. Participants learned how to navigate the Linux file system, use the command line interface, and perform common tasks like creating files, directories, and running programs. They also learned about the history of Linux and its importance in the tech industry.",
-        "image":"https://images.unsplash.com/photo-1720887236665-43caad593cdf?q=80&w=1836&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-        "date":"Coming soon.."
+        "event": "Basics to linux",
+        "desc": "Basics to Linux workshop was an engaging event that introduced participants to the basics of the Linux operating system. Participants learned how to navigate the Linux file system, use the command line interface, and perform common tasks like creating files, directories, and running programs. They also learned about the history of Linux and its importance in the tech industry.",
+        "image": "https://images.unsplash.com/photo-1720887236665-43caad593cdf?q=80&w=1836&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "date": "Coming soon.."
     }
 ]
