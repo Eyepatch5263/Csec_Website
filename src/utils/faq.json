@@ -1,220 +1,239 @@
 {
-    "Hackathon":[
+    "Hackathon": [
         {
-            "id":1,
-            "faq_ques":"Do I need a team to join the hackathon?",
-            "faq_ans":" You can totally join solo or with a team — the choice is yours! If you don’t have a team, don’t worry, you’ll find like-minded hackers to collaborate with during the event."
+            "id": 1,
+            "faq_ques": "Do I need a team to join the hackathon?",
+            "faq_ans": " You can totally join solo or with a team — the choice is yours! If you don’t have a team, don’t worry, you’ll find like-minded hackers to collaborate with during the event."
         },
         {
-            "id":2,
-            "faq_ques":" What will we be building?",
-            "faq_ans":" Anything and everything! From apps to websites, games to innovative tech solutions, the sky’s the limit. Bring your ideas and watch them come to life with a team of passionate coders."
+            "id": 2,
+            "faq_ques": " What will we be building?",
+            "faq_ans": " Anything and everything! From apps to websites, games to innovative tech solutions, the sky’s the limit. Bring your ideas and watch them come to life with a team of passionate coders."
         },
         {
-            "id":3,
-            "faq_ques":" Is there a time limit for the hackathon?",
-            "faq_ans":"Yes! You’ll have a set time frame to create your project, so you’ll need to plan, code, and present your masterpiece under pressure. Time management is key!"
+            "id": 3,
+            "faq_ques": " Is there a time limit for the hackathon?",
+            "faq_ans": "Yes! You’ll have a set time frame to create your project, so you’ll need to plan, code, and present your masterpiece under pressure. Time management is key!"
         },
         {
-            "id":4,
-            "faq_ques":"What if I don’t know where to start?",
-            "faq_ans":"Don’t worry! You’ll have access to mentors, resources, and fellow participants to guide you through the process. Everyone’s in it together!"
+            "id": 4,
+            "faq_ques": "What if I don’t know where to start?",
+            "faq_ans": "Don’t worry! You’ll have access to mentors, resources, and fellow participants to guide you through the process. Everyone’s in it together!"
         }
     ],
-    "Linux":[
+    "Linux": [
         {
-            "id":1,
-            "faq_ques":" Do I need to know anything about Linux before attending?",
-            "faq_ans":"Not at all! This workshop is designed for everyone, whether you’re completely new to Linux or just want to get more comfortable with the system. We'll start from the basics and work our way up."
+            "id": 1,
+            "faq_ques": " Do I need to know anything about Linux before attending?",
+            "faq_ans": "Not at all! This workshop is designed for everyone, whether you’re completely new to Linux or just want to get more comfortable with the system. We'll start from the basics and work our way up."
         },
         {
-            "id":2,
-            "faq_ques":"Is Linux hard to learn?",
-            "faq_ans":"Linux might seem a bit intimidating at first, but once you get the hang of it, you'll love its power and flexibility! Plus, we’ll be there to guide you step by step, so don’t stress."
+            "id": 2,
+            "faq_ques": "Is Linux hard to learn?",
+            "faq_ans": "Linux might seem a bit intimidating at first, but once you get the hang of it, you'll love its power and flexibility! Plus, we’ll be there to guide you step by step, so don’t stress."
         },
         {
-            "id":3,
-            "faq_ques":"Why should I learn Linux?",
-            "faq_ans":"Linux is everywhere — from servers to embedded devices and even supercomputers! It’s one of the most powerful tools in a developer’s toolkit, and once you know it, you’ll be able to handle pretty much anything tech-related that comes your way."
+            "id": 3,
+            "faq_ques": "Why should I learn Linux?",
+            "faq_ans": "Linux is everywhere — from servers to embedded devices and even supercomputers! It’s one of the most powerful tools in a developer’s toolkit, and once you know it, you’ll be able to handle pretty much anything tech-related that comes your way."
         },
         {
-            "id":4,
-            "faq_ques":" Do I need any special software for this workshop?",
-            "faq_ans":"Nope! All you need is a laptop, and we'll provide the rest. We’ll guide you through the tools you need to start using Linux effectively."
-        },{
-            "id":5,
-            "faq_ques":"Will I get any resources after the workshop?",
-            "faq_ans":"Yes! You’ll receive notes, cheat sheets, and useful resources to help you continue your Linux journey long after the workshop ends."
+            "id": 4,
+            "faq_ques": " Do I need any special software for this workshop?",
+            "faq_ans": "Nope! All you need is a laptop, and we'll provide the rest. We’ll guide you through the tools you need to start using Linux effectively."
+        },
+        {
+            "id": 5,
+            "faq_ques": "Will I get any resources after the workshop?",
+            "faq_ans": "Yes! You’ll receive notes, cheat sheets, and useful resources to help you continue your Linux journey long after the workshop ends."
         }
     ],
-    "Introduction-to-CS":[
+    "Introduction-to-CS": [
         {
-            "id":1,
-            "faq_ques":"Is this workshop for beginners only?",
-            "faq_ans":"While it’s perfect for those just starting out, anyone looking to get a solid foundation in computer science can benefit from this workshop! Whether you're new or want a refresher, there's something for everyone."
+            "id": 1,
+            "faq_ques": "Is this workshop for beginners only?",
+            "faq_ans": "While it’s perfect for those just starting out, anyone looking to get a solid foundation in computer science can benefit from this workshop! Whether you're new or want a refresher, there's something for everyone."
         },
         {
-            "id":2,
-            "faq_ques":" Do I need to bring anything?",
-            "faq_ans":"Just bring your laptop, your curiosity, and your enthusiasm for learning. If you bring a snack too, we won’t judge."
+            "id": 2,
+            "faq_ques": " Do I need to bring anything?",
+            "faq_ans": "Just bring your laptop, your curiosity, and your enthusiasm for learning. If you bring a snack too, we won’t judge."
         },
         {
-            "id":3,
-            "faq_ques":" Can I ask questions during the workshop?",
-            "faq_ans":"Absolutely! This workshop is all about making computer science easy to understand, so feel free to ask questions, share your thoughts, or even get advice on coding challenges. We’re all in this together!"
+            "id": 3,
+            "faq_ques": " Can I ask questions during the workshop?",
+            "faq_ans": "Absolutely! This workshop is all about making computer science easy to understand, so feel free to ask questions, share your thoughts, or even get advice on coding challenges. We’re all in this together!"
         }
     ],
-    "Heuristics":[
+    "Heuristics": [
         {
-            "id":1,
-            "faq_ques":"Do I need to be a coding ninja to join?",
-            "faq_ans":"While we love ninjas, you don’t need to be one to participate. Whether you're a beginner or a seasoned coder, if you’ve got the will to code, we’ve got the thrill to challenge you!"
+            "id": 1,
+            "faq_ques": "Do I need to be a coding ninja to join?",
+            "faq_ans": "While we love ninjas, you don’t need to be one to participate. Whether you're a beginner or a seasoned coder, if you’ve got the will to code, we’ve got the thrill to challenge you!"
         },
         {
-            "id":2,
-            "faq_ques":"How often is this contest?",
-            "faq_ans":"Heuristics takes place every month, it’s like a monthly workout for your brain. So get ready to stretch those coding muscles regularly!"
+            "id": 2,
+            "faq_ques": "How often is this contest?",
+            "faq_ans": "Heuristics takes place every month, it’s like a monthly workout for your brain. So get ready to stretch those coding muscles regularly!"
         },
         {
-            "id":3,
-            "faq_ques":"What kind of problems will I face?",
-            "faq_ans":"Expect a mix of algorithmic puzzles, tricky data structure challenges, and creative coding problems that will make you think twice (and sometimes thrice). Don’t worry, we’ll make sure you get plenty of chances to show off your skills!"
+            "id": 3,
+            "faq_ques": "What kind of problems will I face?",
+            "faq_ans": "Expect a mix of algorithmic puzzles, tricky data structure challenges, and creative coding problems that will make you think twice (and sometimes thrice). Don’t worry, we’ll make sure you get plenty of chances to show off your skills!"
         },
         {
-            "id":4,
-            "faq_ques":" Is there a time limit?",
-            "faq_ans":"Yup! Time flies when you're coding, so you’ll have to think fast and type faster. The clock is ticking, and the problems aren't waiting!"
+            "id": 4,
+            "faq_ques": " Is there a time limit?",
+            "faq_ans": "Yup! Time flies when you're coding, so you’ll have to think fast and type faster. The clock is ticking, and the problems aren't waiting!"
         }
     ],
-    "Git-Workshop":[
+    "Git-Workshop": [
         {
-            "id":1,
-            "faq_ques":"Do I need to be familiar with coding to attend?",
-            "faq_ans":"Not at all! If you can click buttons and type commands without panicking, you're good to go. We'll guide you through the rest."
+            "id": 1,
+            "faq_ques": "Do I need to be familiar with coding to attend?",
+            "faq_ans": "Not at all! If you can click buttons and type commands without panicking, you're good to go. We'll guide you through the rest."
         },
         {
-            "id":2,
-            "faq_ques":" What will I learn during the workshop?",
-            "faq_ans":"You'll learn how to initialize a Git repository, stage and commit changes, create branches, merge them, handle conflicts, and use GitHub for collaboration and remote project management."
+            "id": 2,
+            "faq_ques": " What will I learn during the workshop?",
+            "faq_ans": "You'll learn how to initialize a Git repository, stage and commit changes, create branches, merge them, handle conflicts, and use GitHub for collaboration and remote project management."
         },
         {
-            "id":3,
-            "faq_ques":"Will I actually use GitHub after this workshop?",
-            "faq_ans":"Oh, absolutely! You'll be pushing, pulling, and forking like a pro in no time."
+            "id": 3,
+            "faq_ques": "Will I actually use GitHub after this workshop?",
+            "faq_ans": "Oh, absolutely! You'll be pushing, pulling, and forking like a pro in no time."
         },
         {
-            "id":4,
-            "faq_ques":" Is attending this workshop actually helpful?",
-            "faq_ans":"Absolutely! Whether you're a beginner or a seasoned coder, mastering Git and GitHub is essential for collaboration and version control in the real world. Plus, it's a skill that's highly valued in the tech industry."
+            "id": 4,
+            "faq_ques": " Is attending this workshop actually helpful?",
+            "faq_ans": "Absolutely! Whether you're a beginner or a seasoned coder, mastering Git and GitHub is essential for collaboration and version control in the real world. Plus, it's a skill that's highly valued in the tech industry."
         }
     ],
-    "Programming-Meet":[
+    "Programming-Meet": [
         {
-            "id":1,
-            "faq_ques":"What happens at a programming meet?",
-            "faq_ans":"It’s a mix of coding challenges, discussions, problem-solving, and networking with fellow coders. You'll get the chance to learn, share tips, and grow together in a collaborative environment."
+            "id": 1,
+            "faq_ques": "What happens at a programming meet?",
+            "faq_ans": "It’s a mix of coding challenges, discussions, problem-solving, and networking with fellow coders. You'll get the chance to learn, share tips, and grow together in a collaborative environment."
         },
         {
-            "id":2,
-            "faq_ques":"Can I ask questions during the meet?",
-            "faq_ans":"Definitely! It’s a collaborative environment, ask away, share your thoughts, and get advice from others. We’re all here to learn from each other!"
+            "id": 2,
+            "faq_ques": "Can I ask questions during the meet?",
+            "faq_ans": "Definitely! It’s a collaborative environment, ask away, share your thoughts, and get advice from others. We’re all here to learn from each other!"
         },
         {
-            "id":4,
-            "faq_ques":"What are the benefits of attending the programming meet?",
-            "faq_ans":"Attending the programming meet will help you learn new skills, expand your knowledge, and have a fun and engaging experience."
+            "id": 4,
+            "faq_ques": "What are the benefits of attending the programming meet?",
+            "faq_ans": "Attending the programming meet will help you learn new skills, expand your knowledge, and have a fun and engaging experience."
         }
     ],
-    "CodeWrap":[
+    "CodeWrap": [
         {
-            "id":1,
-            "faq_ques":"Can I participate as a solo coder or do I need a team?",
-            "faq_ans":"You can totally go solo, or team up with fellow coders to combine your brainpower. Either way, it’s going to be an intense and fun ride!"
+            "id": 1,
+            "faq_ques": "Can I participate as a solo coder or do I need a team?",
+            "faq_ans": "You can totally go solo, or team up with fellow coders to combine your brainpower. Either way, it’s going to be an intense and fun ride!"
         },
         {
-            "id":2,
-            "faq_ques":" What kinds of challenges will we face?",
-            "faq_ans":"We’ve got everything, from mind-bending algorithms to tricky data structures. Expect to tackle problems that test both your coding speed and creativity. Think of it as a workout for your coding brain!"
+            "id": 2,
+            "faq_ques": " What kinds of challenges will we face?",
+            "faq_ans": "We’ve got everything, from mind-bending algorithms to tricky data structures. Expect to tackle problems that test both your coding speed and creativity. Think of it as a workout for your coding brain!"
         },
         {
-            "id":3,
-            "faq_ques":" Is there a time limit?",
-            "faq_ans":"Oh yes, the clock is ticking! You’ll have to think fast and code faster to beat the clock. It’s a race against time, but don’t worry — you’ve got this!"
+            "id": 3,
+            "faq_ques": " Is there a time limit?",
+            "faq_ans": "Oh yes, the clock is ticking! You’ll have to think fast and code faster to beat the clock. It’s a race against time, but don’t worry — you’ve got this!"
         },
         {
-            "id":4,
-            "faq_ques":"Do I need to prepare in advance?",
-            "faq_ans":"Not a requirement, but brushing up on your algorithms and coding basics will definitely give you a leg up. And maybe grab a snack to fuel your brain!"
+            "id": 4,
+            "faq_ques": "Do I need to prepare in advance?",
+            "faq_ans": "Not a requirement, but brushing up on your algorithms and coding basics will definitely give you a leg up. And maybe grab a snack to fuel your brain!"
         }
     ],
-    "Bootcamp":[
+    "Bootcamp": [
         {
-            "id":1,
-            "faq_ques":"Is the bootcamp suitable for beginners?",
-            "faq_ans":"Totally! Whether you're new to coding or just want to improve your skills, our bootcamp is perfect for hands-on learning, with guidance from experienced mentors to help you every step of the way."
+            "id": 1,
+            "faq_ques": "Is the bootcamp suitable for beginners?",
+            "faq_ans": "Totally! Whether you're new to coding or just want to improve your skills, our bootcamp is perfect for hands-on learning, with guidance from experienced mentors to help you every step of the way."
         },
         {
-            "id":2,
-            "faq_ques":"What topics will the bootcamp cover?",
-            "faq_ans":"From the basics of programming to advanced web development, data structures, algorithms, and more — we’ll cover it all to make you a well-rounded coder."
+            "id": 2,
+            "faq_ques": "What topics will the bootcamp cover?",
+            "faq_ans": "From the basics of programming to advanced web development, data structures, algorithms, and more — we’ll cover it all to make you a well-rounded coder."
         },
         {
-            "id":3,
-            "faq_ques":"Will there be hands-on coding during the bootcamp?",
-            "faq_ans":" You bet! Expect plenty of coding exercises, real-world projects, and practical applications of everything you learn. We believe in learning by doing!"
+            "id": 3,
+            "faq_ques": "Will there be hands-on coding during the bootcamp?",
+            "faq_ans": " You bet! Expect plenty of coding exercises, real-world projects, and practical applications of everything you learn. We believe in learning by doing!"
         },
         {
-            "id":4,
-            "faq_ques":"How long is the bootcamp?",
-            "faq_ans":"It’s an intensive, focused experience that will span over a set period (usually a weekend or a few days), designed to maximize your learning and coding growth in a short amount of time."
+            "id": 4,
+            "faq_ques": "How long is the bootcamp?",
+            "faq_ans": "It’s an intensive, focused experience that will span over a set period (usually a weekend or a few days), designed to maximize your learning and coding growth in a short amount of time."
         }
     ],
-    "Freedom-Day":[
+    "Freedom-Day": [
         {
-            "id":1,
-            "faq_ques":"What are the topics for the Software Freedom Day?",
-            "faq_ans":"The Software Freedom Day will cover various topics such as open-source software, free software, and the importance of software freedom."
+            "id": 1,
+            "faq_ques": "What are the topics for the Software Freedom Day?",
+            "faq_ans": "The Software Freedom Day will cover various topics such as open-source software, free software, and the importance of software freedom."
         },
         {
-            "id":2,
-            "faq_ques":"How much does the Software Freedom Day registration fee include?",
-            "faq_ans":"The Software Freedom Day registration is completely free."
+            "id": 2,
+            "faq_ques": "How much does the Software Freedom Day registration fee include?",
+            "faq_ans": "The Software Freedom Day registration is completely free."
         },
-        
         {
-            "id":4,
-            "faq_ques":"What are the benefits of attending the Software Freedom Day?",
-            "faq_ans":"Attending the Software Freedom Day will help you learn about the importance of software freedom, open-source software, and free software."
+            "id": 4,
+            "faq_ques": "What are the benefits of attending the Software Freedom Day?",
+            "faq_ans": "Attending the Software Freedom Day will help you learn about the importance of software freedom, open-source software, and free software."
         },
-        
         {
-            "id":6,
-            "faq_ques":"What are some common software freedom topics to discuss?",
-            "faq_ans":"Some common software freedom topics to discuss include the importance of software freedom, the benefits of open-source software, and the challenges faced by proprietary software."
+            "id": 6,
+            "faq_ques": "What are some common software freedom topics to discuss?",
+            "faq_ans": "Some common software freedom topics to discuss include the importance of software freedom, the benefits of open-source software, and the challenges faced by proprietary software."
         }
     ],
-    "Intern-Talk":[
+    "Intern-Talk": [
         {
-            "id":1,
-            "faq_ques":"What are the topics for the intern talks?",
-            "faq_ans":"The intern talks will cover various topics such as software development, data analysis, and machine learning."
+            "id": 1,
+            "faq_ques": "What are the topics for the intern talks?",
+            "faq_ans": "The intern talks will cover various topics such as software development, data analysis, and machine learning."
         },
         {
-            "id":2,
-            "faq_ques":"How much does the intern talk registration fee include?",
-            "faq_ans":"The intern talk registration is completely free."
+            "id": 2,
+            "faq_ques": "How much does the intern talk registration fee include?",
+            "faq_ans": "The intern talk registration is completely free."
         },
         {
-            "id":4,
-            "faq_ques":"What are the benefits of attending the intern talks?",
-            "faq_ans":"Attending the intern talks will help you learn about the importance of software development, data analysis, and machine learning, and gain valuable experience and knowledge."
+            "id": 4,
+            "faq_ques": "What are the benefits of attending the intern talks?",
+            "faq_ans": "Attending the intern talks will help you learn about the importance of software development, data analysis, and machine learning, and gain valuable experience and knowledge."
         },
-        
         {
-            "id":6,
-            "faq_ques":"What are some common intern talk topics to discuss?",
-            "faq_ans":"Some common intern talk topics to discuss include the importance of software development, the benefits of data analysis, and the challenges faced by machine learning."
+            "id": 6,
+            "faq_ques": "What are some common intern talk topics to discuss?",
+            "faq_ans": "Some common intern talk topics to discuss include the importance of software development, the benefits of data analysis, and the challenges faced by machine learning."
+        }
+    ],
+    "HackSecure-26": [
+        {
+            "id": 1,
+            "faq_ques": "Who can participate in HackSecure '26?",
+            "faq_ans": "The hackathon is open to students interested in mobile device security and coding. It is a great opportunity to showcase your skills, learn, and win prizes!"
+        },
+        {
+            "id": 2,
+            "faq_ques": "Is there a registration fee?",
+            "faq_ans": "Please refer to the official website (hacksecure.nith.ac.in) for registration forms and any associated fees."
+        },
+        {
+            "id": 3,
+            "faq_ques": "What is the theme of the hackathon?",
+            "faq_ans": "The central theme of HackSecure '26 is \"Mobile Device Security\"."
+        },
+        {
+            "id": 4,
+            "faq_ques": "When and where is it happening?",
+            "faq_ans": "The event will be held on March 10th and 11th, 2026 at NIT Hamirpur. As an offline event, you get to collaborate and network in person!"
         }
     ]
-    
 }
