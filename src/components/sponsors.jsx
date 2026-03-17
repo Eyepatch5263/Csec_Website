@@ -3,9 +3,9 @@ import { motion } from "framer-motion";
 
 export default function Sponsors() {
   const sponsorlogos = [
-    { name: "TUF", icon: "/sponsors/tufLogo.png" },
-    { name: "Codehurdle", icon: "/sponsors/codehurdleLogo.webp" },
-    { name: "Praksh", icon: "/sponsors/prakshaLogo.png" },
+    { name: "TUF", icon: "/sponsors/tufLogo.png", bgColor: "#ea763f" },
+    { name: "Codehurdle", icon: "/sponsors/codehurdleLogo.webp", bgColor: "#7c3aed" },
+    { name: "Praksh", icon: "/sponsors/prakshaLogo.png", bgColor: "#e8df7a" },
   ];
 
   // Duplicate for infinite marquee
@@ -51,12 +51,13 @@ export default function Sponsors() {
               {marqueeLogos.map((logo, idx) => (
                 <div
                   key={idx}
-                  className="flex-shrink-0 flex items-center justify-center p-8 w-64 h-32 bg-white/[0.03] border border-white/5 rounded-2xl backdrop-blur-xl group hover:border-purple-500/40 transition-colors duration-500 relative"
+                  className="flex-shrink-0 flex items-center justify-center p-8 w-64 h-32 border border-white/5 rounded-2xl backdrop-blur-xl group hover:border-white/40 transition-all duration-500 relative"
+                  style={{ backgroundColor: logo.bgColor }}
                 >
                   <img
                     src={logo.icon}
                     alt={logo.name}
-                    className="h-10 object-contain brightness-0 invert opacity-40 group-hover:opacity-100 transition-opacity duration-500"
+                    className="h-10 object-contain brightness-0 invert opacity-100 md:opacity-40 md:group-hover:opacity-100 transition-opacity duration-500"
                   />
                   {/* Hover Decoration */}
                   <div className="absolute inset-0 bg-gradient-to-br from-white/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity rounded-2xl pointer-events-none" />
