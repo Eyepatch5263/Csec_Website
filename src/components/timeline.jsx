@@ -139,7 +139,7 @@ export default function Timeline() {
                 </div>
 
                 {/* Content Card */}
-                <div className="w-full pl-20 md:pl-0 md:w-5/12">
+                <div className="w-full pl-14 md:pl-0 md:w-5/12">
                   <div className={`
                     bg-white/[0.03] backdrop-blur-md border border-white/10 p-8 rounded-2xl hover:border-white/20 transition-all duration-300
                     ${step.align === "left" ? "md:text-right" : "md:text-left"}
@@ -148,10 +148,10 @@ export default function Timeline() {
                       <span className={`text-5xl font-black text-white/5 mb-4 select-none`}>
                         {step.stepNumber}
                       </span>
-                      <h3 className="text-xl md:text-3xl font-bold text-white mb-3">
+                      <h3 className="text-lg md:text-3xl font-bold text-white mb-3 whitespace-nowrap md:whitespace-normal">
                         {step.title}
                       </h3>
-                      <p className="text-zinc-400 text-sm md:text-lg font-light leading-relaxed mb-6">
+                      <p className="text-zinc-400 text-[11px] md:text-lg font-light leading-relaxed mb-6">
                         {step.desc}
                       </p>
                       

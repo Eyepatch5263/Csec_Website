@@ -52,7 +52,7 @@ export default function AboutCompetition() {
 
           <div className="grid lg:grid-cols-2 gap-12 lg:gap-20 items-center">
             {/* Left Text */}
-            <div className="space-y-8 text-zinc-400 leading-relaxed text-base md:text-lg">
+            <div className="space-y-8 text-zinc-400 leading-relaxed text-sm md:text-lg">
               <p className="first-line:uppercase first-line:tracking-widest first-line:text-white first-line:font-black">
                 <span className="text-white font-bold">Code Arena</span> is a 
                 premier competitive programming challenge designed to test your ability 
@@ -125,8 +125,8 @@ function FeatureCard({ icon, title, desc, floatClass }) {
       <div className="mb-3 transition-transform group-hover:scale-110 duration-300">
         {icon}
       </div>
-      <h3 className="text-white font-semibold mb-2">{title}</h3>
-      <p className="text-sm text-zinc-400 leading-relaxed">{desc}</p>
+      <h3 className="text-white font-semibold mb-1 md:mb-2">{title}</h3>
+      <p className="hidden md:block text-sm text-zinc-400 leading-relaxed">{desc}</p>
     </div>
   );
 }
