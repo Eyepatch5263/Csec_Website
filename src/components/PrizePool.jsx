@@ -77,7 +77,7 @@ const PrizePool = () => {
               </h3>
               
               <p className="text-zinc-400 text-base md:text-lg max-w-md font-light leading-relaxed">
-                We're currently finalizing the grant allocations. Prepare yourselves for the most rewarding CodeArena yet.
+                We&apos;re currently finalizing the grant allocations. Prepare yourselves for the most rewarding CodeArena yet.
               </p>
 
               <div className="mt-10 flex gap-2">

@@ -47,7 +47,7 @@ const CodeArena = () => {
             className="mb-6"
           >
             <h1 className="text-3xl sm:text-5xl md:text-7xl lg:text-8xl font-black mb-0 tracking-tighter leading-[0.85] text-white">
-              CODE <span className="text-purple-500">ARENA'26</span>
+              CODE <span className="text-purple-500">ARENA&apos;26</span>
             </h1>
           </motion.div>
 
