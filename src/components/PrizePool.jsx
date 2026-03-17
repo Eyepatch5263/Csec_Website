@@ -23,7 +23,7 @@ const PrizePool = () => {
       text: "text-zinc-400",
       glow: "shadow-zinc-500/10",
       order: "order-2 md:order-1",
-      height: "h-[320px] md:h-[380px]"
+      height: "h-[280px] md:h-[380px]"
     },
     {
       rank: "1st",
@@ -34,7 +34,7 @@ const PrizePool = () => {
       text: "text-purple-500",
       glow: "shadow-purple-600/30",
       order: "order-1 md:order-2",
-      height: "h-[400px] md:h-[460px]"
+      height: "h-[340px] md:h-[460px]"
     },
     {
       rank: "3rd",
@@ -45,7 +45,7 @@ const PrizePool = () => {
       text: "text-purple-900",
       glow: "shadow-purple-900/10",
       order: "order-3 md:order-3",
-      height: "h-[280px] md:h-[320px]"
+      height: "h-[220px] md:h-[320px]"
     }
   ];
 
@@ -111,29 +111,32 @@ const PrizePool = () => {
                 whileInView={{ opacity: 1, scale: 1 }}
                 viewport={{ once: true }}
                 whileHover={{ y: -10, scale: 1.02 }}
-                className={`prize-card max-w-2xl w-full bg-white/[0.02] border-2 border-magenta-500/10 rounded-[2.5rem] p-8 md:p-12 backdrop-blur-3xl relative overflow-hidden group transition-all duration-700 hover:border-magenta-500/40 shadow-2xl hover:shadow-magenta-500/20`}
+                className={`prize-card w-full max-w-sm md:max-w-2xl h-[220px] md:h-auto bg-white/[0.02] border-2 border-magenta-500/10 rounded-3xl md:rounded-[2.5rem] p-6 md:p-12 backdrop-blur-3xl relative overflow-hidden group transition-all duration-700 hover:border-magenta-500/40 shadow-2xl hover:shadow-magenta-500/20`}
               >
-                <div className="absolute top-0 right-0 p-8 opacity-10 group-hover:opacity-40 transition-all duration-700 text-magenta-400 group-hover:rotate-12">
-                  <Award size={80} />
+                <div className="absolute top-0 right-0 p-4 md:p-8 opacity-10 group-hover:opacity-40 transition-all duration-700 text-magenta-400 group-hover:rotate-12">
+                  <Award size={60} className="md:w-20 md:h-20" />
                 </div>
                 
-                <div className="relative z-10 flex flex-col md:flex-row items-center gap-8">
+                <div className="relative z-10 flex flex-col md:flex-row items-center md:items-center gap-4 md:gap-8 h-full md:h-auto justify-center md:justify-start">
                    <div className="flex flex-col items-center md:items-start shrink-0">
-                      <span className="text-magenta-400 text-[10px] font-black uppercase tracking-[0.4em] mb-1">GRANT TOTAL</span>
+                      <span className="text-magenta-400 text-[8px] md:text-[10px] font-black uppercase tracking-[0.4em] mb-1">GRANT TOTAL</span>
                       <div className="flex items-baseline gap-1">
-                        <span className="text-3xl font-bold text-magenta-400">₹</span>
-                        <span className="text-4xl sm:text-5xl md:text-7xl font-black text-white tracking-tighter drop-shadow-[0_0_20px_rgba(232,121,249,0.2)]">
+                        <span className="text-2xl md:text-3xl font-bold text-magenta-400">₹</span>
+                        <span className="text-3xl sm:text-5xl md:text-7xl font-black text-white tracking-tighter drop-shadow-[0_0_20px_rgba(232,121,249,0.2)]">
                           {prize.amount}
                         </span>
                       </div>
                    </div>
 
-                   <div className="h-px w-full md:w-px md:h-20 bg-white/10" />
+                   <div className="hidden md:block h-px w-full md:w-px md:h-20 bg-white/10" />
 
                    <div className="text-center md:text-left">
-                      <h4 className="text-2xl font-black text-white mb-2 tracking-tight uppercase italic">{prize.title}</h4>
-                      <p className="text-zinc-500 text-sm leading-relaxed font-light max-w-sm">
+                      <h4 className="text-xl md:text-2xl font-black text-white mb-1 md:mb-2 tracking-tight uppercase italic">{prize.title}</h4>
+                      <p className="hidden md:block text-zinc-500 text-sm leading-relaxed font-light max-w-sm">
                         Honoring the most promising emerging talent. Target: {prize.description}.
+                      </p>
+                      <p className="block md:hidden text-zinc-500 text-[10px] leading-relaxed font-light">
+                        {prize.description}
                       </p>
                    </div>
                 </div>
@@ -171,17 +174,17 @@ const PrizeCard = ({ prize, index }) => {
         </span>
       </div>
 
-      <div className="flex-1 flex flex-col p-10 z-10 relative">
-        <div className="mt-4 mb-auto">
-           <h3 className="text-white text-3xl font-black italic tracking-tighter uppercase">{prize.title}</h3>
-           <div className="w-12 h-1.5 bg-current opacity-60 mt-2 rounded-full" style={{color: prize.rank === '1st' ? '#a855f7' : prize.rank === '2nd' ? '#e879f9' : '#581c87'}}></div>
+      <div className="flex-1 flex flex-col p-6 md:p-10 z-10 relative">
+        <div className="mt-2 md:mt-4 mb-auto">
+           <h3 className="text-white text-2xl md:text-3xl font-black italic tracking-tighter uppercase">{prize.title}</h3>
+           <div className="w-8 md:w-12 h-1 md:h-1.5 bg-current opacity-60 mt-1 md:mt-2 rounded-full" style={{color: prize.rank === '1st' ? '#a855f7' : prize.rank === '2nd' ? '#e879f9' : '#581c87'}}></div>
         </div>
         
-        <div className="pb-4">
-           <span className="text-zinc-500 text-[10px] uppercase font-black tracking-widest block mb-1">Grant Allocation</span>
+        <div className="pb-2 md:pb-4">
+           <span className="text-zinc-500 text-[8px] md:text-[10px] uppercase font-black tracking-widest block mb-1">Grant Allocation</span>
            <div className="flex items-baseline gap-1">
-              <span className={`text-3xl font-bold ${prize.text}`}>₹</span>
-              <span className="text-4xl sm:text-5xl md:text-7xl font-black text-white tracking-tighter">
+              <span className={`text-2xl md:text-3xl font-bold ${prize.text}`}>₹</span>
+              <span className="text-3xl sm:text-5xl md:text-7xl font-black text-white tracking-tighter">
                 {prize.amount}
               </span>
            </div>
