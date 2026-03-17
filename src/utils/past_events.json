@@ -1,5 +1,24 @@
 [
   {
+    "event": "CODE ARENA",
+    "image": "https://res.cloudinary.com/dtnbssnvc/image/upload/v1773755737/CODEARENA_wtxaxp.png",
+    "date": "2026-04-05",
+    "desc": "Show up your CP skills",
+    "long_date": "April 5, 2026",
+    "long_desc": "Code Arena '26 is an electrifying Competitive Programming contest hosted by a premier institute, bringing together coding enthusiasts from across the country. Organized by the Department of Computer Science in collaboration with leading tech communities, this event challenges participants with algorithmic problem-solving, data structures, and real-world coding scenarios. Get ready for intense coding rounds, brain-teasing problems, and a competitive atmosphere that will push your limits. This is your chance to prove your coding prowess. Register now through the official website or by scanning the QR code on the poster. Don’t miss the action-packed coding showdown on April 5!",
+  "event_type": "Offline Event"
+  },
+  {
+    "event": "Intern-Talk",
+    "image": "https://res.cloudinary.com/dtnbssnvc/image/upload/v1773763690/Copy_of_Copy_of_INTERN_TALK_pqckut.png",
+    "date": "2026-03-25",
+    "desc": "Join to learn and discuss about coding",
+    "long_date": "March 25, 2026",
+    "long_desc": "Intern Talk '26 is an engaging knowledge-sharing session designed to connect students with industry-ready insights and real-world internship experiences. Organized by the department in collaboration with student technical communities, this event features inspiring speakers who will share their journey, preparation strategies, technical skills, and tips to crack top internships. Participants will gain valuable guidance on resume building, interview preparation, skill development, and industry expectations. Don’t miss this opportunity to learn from experienced interns and boost your career path. Join us on March 25 and take a step closer to your dream internship!",
+    "event_type": "Offline Event"
+  },
+
+  {
     "event": "HackSecure-26",
     "image": "https://res.cloudinary.com/dabttccn6/image/upload/v1773080367/Poster_fvfdm8.png",
     "date": "2026-03-10",
@@ -98,4 +117,5 @@
     "long_desc": "An Intern Talk is an event organized by a society where current interns and recent graduates share their experiences, insights, and advice on navigating the world of internships and early-career opportunities. This event provides a platform for interns to discuss their internship journeys, challenges faced, lessons learned, and tips for success. Attendees will hear from a diverse panel of speakers who have completed internships in various industries, companies, and roles, offering valuable perspectives and practical advice. The Intern Talk covers topics such as finding internships, preparing for interviews, adapting to new work environments, building professional relationships, and making the most of internship experiences. Participants will have the opportunity to ask questions, engage in discussions, and connect with peers who are embarking on their internship journeys. Whether you are a student seeking internship opportunities or an intern looking to enhance your skills, the Intern Talk offers valuable insights and guidance to help you navigate the internship landscape and kickstart your career. Join us for an informative and inspiring event that empowers interns to thrive in their professional development journey.",
     "event_type": "Virtual Event"
   }
+  
 ]
