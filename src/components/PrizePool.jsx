@@ -2,8 +2,8 @@
 
 import React from 'react';
 import { motion } from 'framer-motion';
-import  './css/PrizePool.css'
-import { Trophy, Award, Medal } from 'lucide-react';
+import './css/PrizePool.css';
+import { Trophy, Timer,Award, Medal } from 'lucide-react';
 import { useScroll, useTransform, useMotionValue } from "framer-motion";
 
 const PrizePool = () => {
@@ -13,66 +13,15 @@ const PrizePool = () => {
     offset: ["start end", "end start"]
   });
 
-  const mainPrizes = [
-    {
-      rank: "2nd",
-      amount: "7,000",
-      title: "Silver",
-      icon: <Medal size={40} />,
-      color: "border-zinc-400",
-      text: "text-zinc-400",
-      glow: "shadow-zinc-500/10",
-      order: "order-2 md:order-1",
-      height: "h-[280px] md:h-[380px]"
-    },
-    {
-      rank: "1st",
-      amount: "10,000",
-      title: "Gold",
-      icon: <Trophy size={56} />,
-      color: "border-purple-500",
-      text: "text-purple-500",
-      glow: "shadow-purple-600/30",
-      order: "order-1 md:order-2",
-      height: "h-[340px] md:h-[460px]"
-    },
-    {
-      rank: "3rd",
-      amount: "4,000",
-      title: "Bronze",
-      icon: <Award size={40} />,
-      color: "border-purple-900/50",
-      text: "text-purple-900",
-      glow: "shadow-purple-900/10",
-      order: "order-3 md:order-3",
-      height: "h-[220px] md:h-[320px]"
-    }
-  ];
-
-  const specialPrizes = [
-    {
-      rank: "Beginner",
-      amount: "4,000",
-      title: "Rising Star",
-      icon: <Award size={40} />,
-      color: "border-magenta-500/40",
-      text: "text-magenta-400",
-      glow: "shadow-magenta-500/10",
-      description: "Best Beginners Team Category"
-    }
-  ];
-
   const mouseXGlobal = useMotionValue(0);
   const mouseYGlobal = useMotionValue(0);
 
   const handleGlobalMouseMove = (e) => {
     const { clientX, clientY } = e;
-    mouseXGlobal.set((clientX / window.innerWidth) - 0.5);
-    mouseYGlobal.set((clientY / window.innerHeight) - 0.5);
+    const rect = sectionRef.current.getBoundingClientRect();
+    mouseXGlobal.set(((clientX - rect.left) / rect.width) - 0.5);
+    mouseYGlobal.set(((clientY - rect.top) / rect.height) - 0.5);
   };
-
-  const orbX = useTransform(mouseXGlobal, [-0.5, 0.5], [-50, 50]);
-  const orbY = useTransform(mouseYGlobal, [-0.5, 0.5], [-50, 50]);
 
   return (
     <section 
@@ -81,11 +30,12 @@ const PrizePool = () => {
       className="prize-pool-section py-32 px-6 relative overflow-visible bg-transparent"
     >
       <div className="container mx-auto max-w-6xl relative z-10">
+        {/* Header Section */}
         <motion.div 
           initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
-          className="text-center mb-24 relative"
+          className="text-center mb-16 relative"
         >
           <h2 className="text-3xl sm:text-4xl md:text-6xl lg:text-7xl font-black text-white mb-2 tracking-tighter">
             Prize <span className="text-purple-500">Pool</span>
@@ -96,101 +46,62 @@ const PrizePool = () => {
           <div className="h-1 w-32 bg-gradient-to-r from-purple-600 to-transparent mx-auto mt-8 rounded-full" />
         </motion.div>
 
-        <div className="flex flex-col md:flex-row items-end justify-center gap-8 md:gap-6 mb-32">
-          {mainPrizes.map((prize, index) => (
-            <PrizeCard key={index} prize={prize} index={index} />
-          ))}
-        </div>
+        {/* Revealing Soon Placeholder */}
+        <div className="flex justify-center items-center py-10">
+          <motion.div
+            initial={{ opacity: 0, scale: 0.9 }}
+            whileInView={{ opacity: 1, scale: 1 }}
+            viewport={{ once: true }}
+            whileHover={{ scale: 1.02 }}
+            className="relative w-full max-w-3xl p-1 rounded-[3rem] bg-gradient-to-b from-purple-500/20 to-transparent border-2 border-purple-500/30 backdrop-blur-3xl overflow-hidden group shadow-[0_0_50px_rgba(168,85,247,0.1)]"
+          >
+            {/* Background Decorative Icon */}
+            <div className="absolute -right-10 -bottom-10 text-purple-500/10 rotate-12 group-hover:rotate-0 transition-transform duration-1000">
+              <Trophy size={300} />
+            </div>
 
-        <div className="pt-20 border-t border-white/5 relative">
-          <div className="flex justify-center px-4">
-            {specialPrizes.map((prize, index) => (
+            <div className="relative z-10 p-12 md:p-20 flex flex-col items-center text-center">
               <motion.div 
-                key={index}
-                initial={{ opacity: 0, scale: 0.95 }}
-                whileInView={{ opacity: 1, scale: 1 }}
-                viewport={{ once: true }}
-                whileHover={{ y: -10, scale: 1.02 }}
-                className={`prize-card w-full max-w-sm md:max-w-2xl h-[220px] md:h-auto bg-white/[0.02] border-2 border-magenta-500/10 rounded-3xl md:rounded-[2.5rem] p-6 md:p-12 backdrop-blur-3xl relative overflow-hidden group transition-all duration-700 hover:border-magenta-500/40 shadow-2xl hover:shadow-magenta-500/20`}
+                animate={{ 
+                  y: [0, -10, 0],
+                  filter: ["drop-shadow(0 0 5px rgba(168,85,247,0.5))", "drop-shadow(0 0 20px rgba(168,85,247,0.8))", "drop-shadow(0 0 5px rgba(168,85,247,0.5))"]
+                }}
+                transition={{ duration: 3, repeat: Infinity, ease: "easeInOut" }}
+                className="mb-8 p-6 rounded-full bg-purple-500/10 text-purple-500 border border-purple-500/20"
               >
-                <div className="absolute top-0 right-0 p-4 md:p-8 opacity-10 group-hover:opacity-40 transition-all duration-700 text-magenta-400 group-hover:rotate-12">
-                  <Award size={60} className="md:w-20 md:h-20" />
-                </div>
-                
-                <div className="relative z-10 flex flex-col md:flex-row items-center md:items-center gap-4 md:gap-8 h-full md:h-auto justify-center md:justify-start">
-                   <div className="flex flex-col items-center md:items-start shrink-0">
-                      <span className="text-magenta-400 text-[8px] md:text-[10px] font-black uppercase tracking-[0.4em] mb-1">GRANT TOTAL</span>
-                      <div className="flex items-baseline gap-1">
-                        <span className="text-2xl md:text-3xl font-bold text-magenta-400">₹</span>
-                        <span className="text-3xl sm:text-5xl md:text-7xl font-black text-white tracking-tighter drop-shadow-[0_0_20px_rgba(232,121,249,0.2)]">
-                          {prize.amount}
-                        </span>
-                      </div>
-                   </div>
-
-                   <div className="hidden md:block h-px w-full md:w-px md:h-20 bg-white/10" />
-
-                   <div className="text-center md:text-left">
-                      <h4 className="text-xl md:text-2xl font-black text-white mb-1 md:mb-2 tracking-tight uppercase italic">{prize.title}</h4>
-                      <p className="hidden md:block text-zinc-500 text-sm leading-relaxed font-light max-w-sm">
-                        Honoring the most promising emerging talent. Target: {prize.description}.
-                      </p>
-                      <p className="block md:hidden text-zinc-500 text-[10px] leading-relaxed font-light">
-                        {prize.description}
-                      </p>
-                   </div>
-                </div>
+                <Timer size={48} strokeWidth={1.5} />
               </motion.div>
-            ))}
-          </div>
+              
+              <h3 className="text-4xl md:text-5xl font-black text-white italic tracking-tighter uppercase mb-4">
+                Revealing <span className="text-purple-500">Soon</span>
+              </h3>
+              
+              <p className="text-zinc-400 text-base md:text-lg max-w-md font-light leading-relaxed">
+                We&apos;re currently finalizing the grant allocations. Prepare yourselves for the most rewarding CodeArena yet.
+              </p>
+
+              <div className="mt-10 flex gap-2">
+                {[1, 2, 3].map((i) => (
+                  <motion.div
+                    key={i}
+                    animate={{ opacity: [0.2, 1, 0.2] }}
+                    transition={{ duration: 1.5, repeat: Infinity, delay: i * 0.3 }}
+                    className="w-2 h-2 rounded-full bg-purple-500"
+                  />
+                ))}
+              </div>
+            </div>
+
+            {/* Subtle light sweep animation */}
+            <motion.div 
+              animate={{ x: ['-100%', '200%'] }}
+              transition={{ duration: 4, repeat: Infinity, ease: "linear" }}
+              className="absolute inset-0 bg-gradient-to-r from-transparent via-white/[0.05] to-transparent skew-x-12 pointer-events-none"
+            />
+          </motion.div>
         </div>
       </div>
     </section>
-  );
-};
-
-const PrizeCard = ({ prize, index }) => {
-  return (
-    <motion.div 
-      initial={{ opacity: 0, y: 50 }}
-      whileInView={{ opacity: 1, y: 0 }}
-      viewport={{ once: true }}
-      transition={{ duration: 0.6, delay: index * 0.15 }}
-      whileHover={{ y: -15, scale: 1.02 }}
-      className={`prize-card relative w-full md:w-1/3 flex flex-col p-1 rounded-3xl border-2 transition-all duration-500 backdrop-blur-2xl bg-gradient-to-b from-white/10 to-transparent 
-      ${prize.color} ${prize.glow} ${prize.order} ${prize.height} overflow-hidden group`}
-    >
-      <div className="absolute top-[-20px] right-[-10px] text-[18rem] font-black opacity-[0.04] select-none group-hover:opacity-[0.08] transition-all duration-500 pointer-events-none z-0 tracking-tighter leading-none">
-        {prize.rank[0]}
-      </div>
-
-      <div className={`absolute right-8 top-20 opacity-20 group-hover:opacity-40 transition-all duration-700 group-hover:-translate-y-4 z-0 ${prize.text}`}>
-        {prize.icon}
-      </div>
-
-      <div className="flex justify-between items-center px-6 py-4 border-b border-white/10 z-10 bg-black/40 backdrop-blur-md">
-        <span className={`text-xs font-black tracking-widest uppercase ${prize.text}`}>
-          RANK {prize.rank}
-        </span>
-      </div>
-
-      <div className="flex-1 flex flex-col p-6 md:p-10 z-10 relative">
-        <div className="mt-2 md:mt-4 mb-auto">
-           <h3 className="text-white text-2xl md:text-3xl font-black italic tracking-tighter uppercase">{prize.title}</h3>
-           <div className="w-8 md:w-12 h-1 md:h-1.5 bg-current opacity-60 mt-1 md:mt-2 rounded-full" style={{color: prize.rank === '1st' ? '#a855f7' : prize.rank === '2nd' ? '#e879f9' : '#581c87'}}></div>
-        </div>
-        
-        <div className="pb-2 md:pb-4">
-           <span className="text-zinc-500 text-[8px] md:text-[10px] uppercase font-black tracking-widest block mb-1">Grant Allocation</span>
-           <div className="flex items-baseline gap-1">
-              <span className={`text-2xl md:text-3xl font-bold ${prize.text}`}>₹</span>
-              <span className="text-3xl sm:text-5xl md:text-7xl font-black text-white tracking-tighter">
-                {prize.amount}
-              </span>
-           </div>
-        </div>
-      </div>
-    </motion.div>
   );
 };
 
