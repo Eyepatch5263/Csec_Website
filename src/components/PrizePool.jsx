@@ -3,7 +3,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import './css/PrizePool.css';
-import { Trophy, Timer } from 'lucide-react';
+import { Trophy, Timer,Award, Medal } from 'lucide-react';
 import { useScroll, useTransform, useMotionValue } from "framer-motion";
 
 const PrizePool = () => {
