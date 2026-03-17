@@ -1,0 +1,46 @@
+.prize-pool-section {
+  font-family: var(--font-orbitron), sans-serif;
+}
+
+.prize-pool-section p, 
+.prize-pool-section .text-zinc-500,
+.prize-pool-section .text-zinc-400 {
+  font-family: var(--font-space-grotesk), sans-serif;
+}
+
+.prize-card {
+  box-shadow: 0 10px 30px -10px rgba(0, 0, 0, 0.5);
+  overflow: hidden;
+}
+
+/* Subtle holographic shine on hover */
+.prize-card::before {
+  content: '';
+  position: absolute;
+  top: 0; left: -100%;
+  width: 50%;
+  height: 100%;
+  background: linear-gradient(
+    to right,
+    rgba(255, 255, 255, 0) 0%,
+    rgba(255, 255, 255, 0.05) 50%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  transform: skewX(-25deg);
+  transition: 0.5s;
+}
+
+.prize-card:hover::before {
+  left: 150%;
+}
+
+/* 1st Place specific animation */
+.order-1 {
+  animation: float 6s ease-in-out infinite;
+}
+
+@keyframes float {
+  0% { transform: translateY(0px); }
+  50% { transform: translateY(-10px); }
+  100% { transform: translateY(0px); }
+}

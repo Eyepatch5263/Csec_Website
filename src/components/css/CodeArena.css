@@ -1,0 +1,54 @@
+/* Sharp metallic title with very subtle depth */
+.cyber-title-subtle {
+  background: linear-gradient(to bottom, #ffffff 40%, #94a3b8 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  /* filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.3)); */
+}
+
+/* 3D Tactile purple Button */
+.btn-arena-primary {
+  height: 3.5rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  border-radius: 9999px;
+  font-weight: 700;
+  color: white;
+  border: none;
+  cursor: pointer;
+  background: linear-gradient(180deg, #f97316 0%, #ea580c 100%);
+  box-shadow: 0 4px 0px #9a3412;
+  transition: all 0.2s ease;
+}
+
+.btn-arena-primary:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 5px 0px #9a3412;
+  filter: brightness(1.05);
+}
+
+.btn-arena-primary:active {
+  transform: translateY(3px);
+  box-shadow: 0 1px 0px #9a3412;
+}
+
+/* Ghost Button for Rules */
+.btn-arena-secondary {
+  height: 3.5rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  border-radius: 9999px;
+  font-weight: 700;
+  color: #d4d4d8;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(8px);
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.btn-arena-secondary:hover {
+  /* background: rgba(255, 255, 255, 0.1); */
+  color: white;
+  border-color: rgba(255, 255, 255, 0.4);
+}
