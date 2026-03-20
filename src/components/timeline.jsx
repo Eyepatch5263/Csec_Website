@@ -15,7 +15,7 @@ export default function Timeline() {
     {
       title: "Registration Opens",
       desc: "Sign up and prepare for the coding battle. Form your teams and get ready.",
-      time: "17 March",
+      time: "20 March",
       color: "from-purple-500 to-purple-600",
       glowColor: "shadow-purple-500/50",
       align: "left",
@@ -42,7 +42,7 @@ export default function Timeline() {
     {
       title: "Winners Announced",
       desc: "Top performers are recognized and rewarded for their coding prowess.",
-      time: "06 April",
+      time: "05 April",
       color: "from-purple-400 to-purple-500",
       glowColor: "shadow-purple-500/50",
       align: "right",
