@@ -57,6 +57,7 @@ export default function Sponsors() {
                 src="/sponsors/unstop.webp"
                 alt="Unstop"
                 className="h-20 rounded-md w-auto object-contain md:h-30"
+                
                 loading="lazy"
               />
             </div>
