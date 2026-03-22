@@ -7,6 +7,7 @@ import PrizePool from "../../components/PrizePool";
 import Countdown from "../../components/Countdown";
 import Timeline from "../../components/timeline";
 import QueryForm from "../../components/queryform";
+import Events from "../../components/events1";
 export default function Home() {
   return (
     <>
@@ -14,6 +15,7 @@ export default function Home() {
       <CodeArena/>
       <Countdown/>
       <AboutCompetition/>
+      <Events></Events>
       <PrizePool/>
       <Timeline/>
       <Sponsors/>

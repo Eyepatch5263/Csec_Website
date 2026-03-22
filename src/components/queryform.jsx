@@ -90,7 +90,8 @@ export default function QueryForm() {
 
             <div className="p-8 bg-white/[0.02] border border-white/5 rounded-3xl backdrop-blur-xl">
               <span className="text-[10px] text-zinc-600 font-black uppercase tracking-widest block mb-4">Urgent matters</span>
-              <a href="mailto:csec@nith.ac.in" className="text-zinc-300 font-medium">csec@nith.ac.in</a>
+
+              <p className="text-zinc-300 font-medium">csec@nith.ac.in</p>
             </div>
           </div>
 
