@@ -4,7 +4,7 @@ import { Zap, BrainCircuit, BarChart3, Trophy } from 'lucide-react';
 
 export default function AboutCompetition() {
   return (
-    <section className="relative w-full py-24 px-6 md:px-16 overflow-hidden">
+    <section className="relative z-20 w-full py-24 px-6 md:px-16 overflow-hidden">
 
       
       <div className="max-w-6xl mx-auto px-4 md:px-0">
@@ -54,24 +54,22 @@ export default function AboutCompetition() {
             {/* Left Text */}
             <div className="space-y-8 text-zinc-400 leading-relaxed text-sm md:text-lg">
               <p className="first-line:uppercase first-line:tracking-widest first-line:text-white first-line:font-black">
-                <span className="text-white font-bold">Code Arena</span> is a 
-                premier competitive programming challenge designed to test your ability 
-                to think logically, solve complex problems, and implement efficient 
-                algorithms under intense pressure.
+                <span className="text-white font-bold">Code Arena</span>
+                is a multi-stage deployment featuring four elite sectors. We begin with 
+                the <span className="text-white font-semibold">Intern Talk</span>, an exclusive intelligence 
+                session where veterans from prestigious global tech giants share their 
+                operational insights, survival strategies, and thoughts .
+
               </p>
 
               <p>
-                Participants face a carefully curated set of algorithmic 
-                problems inspired by real-world ICPC and LeetCode challenges. 
-                Speed, correctness, and optimization will determine who climbs 
-                the leaderboard.
+                Following the briefing, three high-intensity competitive tracks go live. 
+                In these sectors, participants 
+                who successfully navigate these challenges will secure 
+                <span className="text-white font-medium italic"> substantial cash bounties</span>, 
+                exclusive tech goodies, and a place among the arena's top-ranked elite. 
+                Optimization is not an option—it is the requirement for victory.
               </p>
-
-              <div className="flex flex-wrap gap-4 relative z-10">
-                <div className="px-4 py-2 bg-white/5 rounded-full border border-white/10 text-sm text-zinc-300">Algorithm</div>
-                <div className="px-4 py-2 bg-white/5 rounded-full border border-white/10 text-sm text-zinc-300">Logic</div>
-                <div className="px-4 py-2 bg-white/5 rounded-full border border-white/10 text-sm text-zinc-300">Speed</div>
-              </div>
 
               {/* Technical Code Decoration */}
               <div className="hidden lg:block absolute bottom-12 left-16 font-mono text-[10px] text-zinc-700 pointer-events-none select-none opacity-40">
@@ -98,8 +96,8 @@ export default function AboutCompetition() {
               />
               <FeatureCard
                 icon={<BarChart3 className="text-purple-400" />}
-                title="Live Leaderboard"
-                desc="Track your ranking in real time as competitors submit."
+                title="Prizes"
+                desc="Secure the sector, claim the reward."
                 delay={0.2}
               />
               <FeatureCard
