@@ -76,32 +76,45 @@ export default function Sponsors() {
 
         {/* Marquee Container */}
         <div className="relative">
-          <div className="flex overflow-hidden  [mask-image:linear-gradient(to_right,transparent,black_15%,black_85%,transparent)]">
+          <div className="flex overflow-hidden  [mask-image:linear-gradient(to_right,transparent,black_10%,black_90%,transparent)]">
             <motion.div
-              animate={{ x: [0, -(256 + 48) * sponsorlogos.length] }}
+              animate={{ x: [0, -(320 + 48) * sponsorlogos.length] }}
               transition={{
-                duration: 20,
+                duration: 25,
                 repeat: Infinity,
                 ease: "linear",
               }}
-              className="flex gap-12 py-10"
+              className="flex gap-12 py-12"
             >
               {marqueeLogos.map((logo, idx) => (
                 <div
                   key={idx}
-                  className="flex-shrink-0  flex items-center justify-center p-8 w-64 h-32 border border-white/5 bg-white/5 rounded-2xl backdrop-blur-xl group hover:border-white/20 hover:bg-white/10 transition-all duration-500 relative"
+                  className="flex-shrink-0 flex items-center justify-center p-10 w-80 h-48 rounded-3xl group relative overflow-hidden"
                 >
-                  <img
-                    src={logo.icon}
-                    alt={logo.name}
-                    // Removed 'brightness-0 invert' so original colors show.
-                    // Removed 'opacity-40' so they don't look faded by default.
-                    // Added 'mix-blend-multiply' as an optional trick to hide white backgrounds on JPEGs if needed.
-                    className="h-full w-full object-contain transition-transform duration-500 group-hover:scale-110"
-                  />
+                  {/* Gradient Background */}
+                  <div className="absolute inset-0 bg-gradient-to-br from-purple-500/20 via-transparent to-pink-500/10 rounded-3xl" />
                   
-                  {/* Hover Decoration */}
-                  <div className="absolute inset-0 bg-gradient-to-br from-white/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity rounded-2xl pointer-events-none" />
+                  {/* Border with Glow */}
+                  <div className="absolute inset-0 rounded-3xl border-2 border-purple-400/30 group-hover:border-purple-400/60 transition-all duration-500" />
+                  <div className="absolute inset-0 rounded-3xl opacity-0 group-hover:opacity-100 transition-opacity duration-500 bg-gradient-to-br from-purple-500/30 via-transparent to-transparent shadow-[inset_0_0_30px_rgba(168,85,247,0.3),0_0_40px_rgba(168,85,247,0.4)]" />
+                  
+                  {/* Backdrop */}
+                  <div className="absolute inset-0 bg-white/[0.03] backdrop-blur-lg rounded-3xl group-hover:bg-white/[0.08] transition-all duration-500" />
+                  
+                  {/* Logo Container */}
+                  <div className="relative z-10 h-[90%] w-[90%] flex items-center justify-center">
+                    <img
+                      src={logo.icon}
+                      alt={logo.name}
+                      className="h-full w-full object-contain transition-all duration-500 group-hover:scale-125 group-hover:brightness-110 filter drop-shadow-[0_0_15px_rgba(168,85,247,0.2)] group-hover:drop-shadow-[0_0_25px_rgba(168,85,247,0.4)]"
+                    />
+                  </div>
+                  
+                  {/* Top Accent Light */}
+                  <div className="absolute top-0 left-1/4 w-32 h-32 bg-gradient-to-b from-purple-400/30 to-transparent rounded-full blur-2xl opacity-0 group-hover:opacity-100 transition-opacity duration-500 pointer-events-none" />
+                  
+                  {/* Bottom Accent Light */}
+                  <div className="absolute bottom-0 right-1/4 w-32 h-32 bg-gradient-to-t from-pink-400/20 to-transparent rounded-full blur-2xl opacity-0 group-hover:opacity-100 transition-opacity duration-500 pointer-events-none" />
                 </div>
               ))}
             </motion.div>
