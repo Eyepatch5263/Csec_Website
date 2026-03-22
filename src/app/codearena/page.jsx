@@ -1,5 +1,5 @@
 import Background from "../../components/background";
-import CodeArena from "../../components/codearena"
+import CodeArena from "../../components/CodeArena"
 import AboutCompetition from "../../components/aboutCA";
 import Sponsors from "../../components/sponsors";
 import Footer from "../../components/ui/Footer";
