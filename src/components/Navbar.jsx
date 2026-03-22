@@ -112,11 +112,9 @@ export default function Navbar() {
                           exit={{ opacity: 0 }}
                         >
                           {/* CSEC Logo - Link to external site */}
-                          <motion.a
+                          <Link
                             href="/"
                             className="relative w-[64px] h-[64px] mr-3"
-                            whileHover={{}}
-                            transition={{ duration: 2, ease: "easeInOut" }}
                           >
                             <Image
                               src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/csec-RitzmBrgdmOMfzaijUqHFSmOVA4LzO.png"
@@ -124,7 +122,7 @@ export default function Navbar() {
                               fill
                               className="object-contain"
                             />
-                          </motion.a>
+                          </Link>
                         </motion.div>
                     </AnimatePresence>
                   </div>

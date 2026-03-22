@@ -31,6 +31,7 @@ export default function Timeline() {
       stepNumber: "03",
     },
     {
+
       title: "Vibe Coding Arena Ends",
       desc: "Vibe coding event close. Last call to submit the galactic battle.",
       time: "04 April",

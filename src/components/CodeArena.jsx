@@ -1,9 +1,9 @@
-'use client';
-
+"use client";
 import { useRef } from 'react';
 import { Calendar, Trophy, Terminal, Zap, Users } from 'lucide-react';
 import PlanetScene from './PlanetScene';
 import { motion, useScroll, useTransform } from "framer-motion";
+
 
 const CodeArena = () => {
   const containerRef = useRef(null);
@@ -12,9 +12,9 @@ const CodeArena = () => {
     offset: ["start start", "end start"],
   });
 
-  const yPlanet = useTransform(scrollYProgress, [0, 1], ["0%", "5%"]); 
+  const yPlanet = useTransform(scrollYProgress, [0, 1], ["0%", "5%"]);
   const opacityContent = useTransform(scrollYProgress, [0, 0.4], [1, 0]);
-  const scalePlanet = useTransform(scrollYProgress, [0, 1], [1.2, 2.0]); 
+  const scalePlanet = useTransform(scrollYProgress, [0, 1], [1.2, 2.0]);
   const rotatePlanet = useTransform(scrollYProgress, [0, 1], [0, 45]);
 
   return (
@@ -126,7 +126,9 @@ const FeatureLine = ({ icon, text }) => (
     <div className="w-8 h-8 flex items-center justify-center rounded-lg bg-white/5 border border-white/10 group-hover:border-white/30 transition-all">
       {icon}
     </div>
-    <span className="text-zinc-300 group-hover:text-white transition-colors">{text}</span>
+    <span className="text-zinc-300 group-hover:text-white transition-colors">
+      {text}
+    </span>
   </div>
 );
 
@@ -134,7 +136,9 @@ const StatCard = ({ label, value, icon }) => (
   <div className="p-4 bg-white/[0.03] border border-white/10 rounded-2xl flex flex-col items-start text-left">
     <div className="text-zinc-500 flex items-center gap-2 mb-2">
       {icon}
-      <span className="text-[10px] uppercase font-black tracking-widest">{label}</span>
+      <span className="text-[10px] uppercase font-black tracking-widest">
+        {label}
+      </span>
     </div>
     <p className="text-white font-bold text-sm sm:text-base">{value}</p>
   </div>
