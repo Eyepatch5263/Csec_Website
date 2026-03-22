@@ -67,7 +67,7 @@ export default function AboutCompetition() {
                 In these sectors, participants 
                 who successfully navigate these challenges will secure 
                 <span className="text-white font-medium italic"> substantial cash bounties</span>, 
-                exclusive tech goodies, and a place among the arena's top-ranked elite. 
+                exclusive tech goodies, and a place among the arena&apos;s top-ranked elite. 
                 Optimization is not an option—it is the requirement for victory.
               </p>
 

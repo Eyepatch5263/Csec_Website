@@ -87,7 +87,7 @@ export default function Timeline() {
               Event <span className="text-purple-500">Timeline</span>
             </h2>
             <p className="text-zinc-500 mt-4 text-lg md:text-xl font-light tracking-wide max-w-2xl mx-auto">
-              Track the trajectory of the mission. Don't miss the critical launch windows.
+              Track the trajectory of the mission. Don&apos;t miss the critical launch windows.
             </p>
             <div className="h-[2px] w-24 bg-gradient-to-r from-transparent via-purple-500 to-transparent mx-auto mt-6" />
           </motion.div>
