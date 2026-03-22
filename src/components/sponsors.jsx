@@ -10,17 +10,14 @@ export default function Sponsors() {
     { name: "Hackerearth", icon: "/sponsors/hackerearth.png" },
   ];
 
-  // Duplicate for infinite marquee
   const marqueeLogos = [...sponsorlogos, ...sponsorlogos];
 
   return (
     <section className="relative w-full py-32 px-6 md:px-16 overflow-hidden">
-      {/* Decorative Orbs */}
       <div className="absolute top-1/4 -left-20 w-64 h-64 bg-purple-600/10 rounded-full blur-[120px] pointer-events-none" />
       <div className="absolute bottom-1/4 -right-20 w-64 h-64 bg-magenta-600/10 rounded-full blur-[120px] pointer-events-none" />
 
       <div className="max-w-6xl mx-auto relative z-10">
-        {/* Heading */}
         <div className="text-center mb-24">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -60,6 +57,7 @@ export default function Sponsors() {
                 src="/sponsors/unstop.webp"
                 alt="Unstop"
                 className="h-20 rounded-md w-auto object-contain md:h-30"
+                
                 loading="lazy"
               />
             </div>
@@ -84,7 +82,7 @@ export default function Sponsors() {
               transition={{
                 duration: 25,
                 repeat: Infinity,
-                ease: "linear"
+                ease: "linear",
               }}
               className="flex gap-12 py-12"
             >
@@ -122,7 +120,6 @@ export default function Sponsors() {
             </motion.div>
           </div>
         </div>
-
       </div>
     </section>
   );

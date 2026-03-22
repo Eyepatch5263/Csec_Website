@@ -29,9 +29,6 @@ const Leaderboards = () => {
     try {
       // const response = await axios.get('/api/fetch_user')
       // setLeaderboardData(response.data)
-    } catch (error) {
-      console.error('Error fetching leaderboard data:', error)
-      // Fallback to dummy data if API fails
       setLeaderboardData([
         { Rank: '1', Name: ' antrikshkatna03', Score: '7974' },
         { Rank: '2', Name: 'harsh580g', Score: '6011' },
@@ -44,6 +41,9 @@ const Leaderboards = () => {
         { Rank: '9', Name: 'Prashant_thakur77', Score: '4762' },
         { Rank: '10', Name: 'Harry_0509', Score: '4737' }
       ])
+    } catch (error) {
+      console.error('Error fetching leaderboard data:', error)
+      // Fallback to dummy data if API fails
     }
   }
 
@@ -63,8 +63,8 @@ const Leaderboards = () => {
   return (
     <section className={`}`}>
       <div className="text-5xl font-bold">
-        
-          Leaderboards
+
+        Leaderboards
 
         <motion.div
           className="search-container"
@@ -73,7 +73,7 @@ const Leaderboards = () => {
           transition={{ duration: 0.5, delay: 0.2 }}
         >
           <Input
-          // @ts-expect-error build
+            // @ts-expect-error build
             type="text"
             placeholder="Search by name"
             value={searchTerm}
@@ -84,7 +84,7 @@ const Leaderboards = () => {
 
         <div className="leaderboard-grid">
           {filteredLeaderboard.map((contestant, index) => (
-            <motion.div 
+            <motion.div
               key={contestant.Rank}
               className="contestant-card"
               initial={{ opacity: 0, scale: 0.9 }}
@@ -94,7 +94,7 @@ const Leaderboards = () => {
               {/* @ts-expect-error build */}
               <Avatar className={`avatar ${getAvatarColor(contestant.Rank)}`}>
 
-              {/* @ts-expect-error build */}
+                {/* @ts-expect-error build */}
 
                 <AvatarFallback>{contestant.Name.substring(0, 2)}</AvatarFallback>
               </Avatar>
